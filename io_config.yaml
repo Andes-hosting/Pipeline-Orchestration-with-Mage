@@ -1,0 +1,9 @@
+version: 0.1.1
+DataWarehouse:
+  # PostgresSQL
+  POSTGRES_CONNECT_TIMEOUT: 10
+  POSTGRES_HOST: "{{ mage_secret_var('postgres_host') }}"
+  POSTGRES_PORT: "{{ mage_secret_var('postgres_port') }}"
+  POSTGRES_DBNAME: "{{ mage_secret_var('postgres_db') }}"
+  POSTGRES_USER: "{{ mage_secret_var('postgres_user') }}"
+  POSTGRES_PASSWORD: "{{ mage_secret_var('postgres_password') }}"

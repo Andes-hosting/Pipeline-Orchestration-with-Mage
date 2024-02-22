@@ -1,0 +1,85 @@
+blocks:
+- all_upstream_blocks_executed: true
+  color: null
+  configuration: {}
+  downstream_blocks:
+  - tuya_data_transformation
+  executor_config: null
+  executor_type: local_python
+  has_callback: false
+  language: python
+  name: Tuya API data
+  retry_config: null
+  status: executed
+  timeout: null
+  type: data_loader
+  upstream_blocks: []
+  uuid: tuya_api_data
+- all_upstream_blocks_executed: true
+  color: null
+  configuration: {}
+  downstream_blocks:
+  - silent_arcanist
+  executor_config: null
+  executor_type: local_python
+  has_callback: false
+  language: python
+  name: Tuya data transformation
+  retry_config: null
+  status: executed
+  timeout: null
+  type: transformer
+  upstream_blocks:
+  - tuya_api_data
+  uuid: tuya_data_transformation
+- all_upstream_blocks_executed: true
+  color: null
+  configuration:
+    data_provider: postgres
+    data_provider_profile: DataWarehouse
+    data_provider_schema: tuya
+    dbt: {}
+    disable_query_preprocessing: false
+    export_write_policy: replace
+    limit: 1000
+    upstream_block_configuration:
+      tuya_data_transformation:
+        table_name: tuya.energy_stg
+    use_raw_sql: true
+  downstream_blocks: []
+  executor_config: null
+  executor_type: local_python
+  has_callback: false
+  language: sql
+  name: silent arcanist
+  retry_config: null
+  status: executed
+  timeout: null
+  type: data_exporter
+  upstream_blocks:
+  - tuya_data_transformation
+  uuid: silent_arcanist
+cache_block_output_in_memory: false
+callbacks: []
+concurrency_config: {}
+conditionals: []
+created_at: '2024-02-20 00:22:23.829615+00:00'
+data_integration: null
+description: null
+executor_config: {}
+executor_count: 1
+executor_type: local_python
+extensions: {}
+name: Tuya Energy Consumption
+notification_config: {}
+remote_variables_dir: null
+retry_config: {}
+run_pipeline_in_one_process: false
+settings:
+  triggers: null
+spark_config: {}
+tags: []
+type: python
+uuid: tuya_energy_consumption
+variables_dir: /home/src/mage_data/Andes
+widgets: []
