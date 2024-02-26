@@ -1,0 +1,37 @@
+from mage_ai.data_preparation.shared.secrets import get_secret_value
+from shlink import Shlink
+import pandas as pd
+
+@data_loader
+def load_data(urls_df, *args, **kwargs):
+
+    # Create an empty DataFrame to store visit data
+    visits_info_df = pd.DataFrame()
+    urls_df = pd.DataFrame(urls_df
+    )
+    # Connecto to Shlink API
+    shlink = Shlink(
+                url = get_secret_value('shlink_url'), 
+                api_key = get_secret_value('shlink_api_key'))
+
+    # Loop through the urls_df and use each 'shortCode' in list_visit function
+    for index, row in urls_df.iterrows():
+        shortCode = row['shortCode']
+        visits_data = shlink.list_visit_data(shortCode)
+        
+        if 'visits' in visits_data and 'data' in visits_data['visits']:
+            visits_data_list = visits_data['visits']['data']
+            df_visits = pd.DataFrame(visits_data_list)
+            df_visits['shortCode'] = shortCode  # Add shortCode as a column
+
+            # Check if 'visitLocation' is in columns before normalizing
+            if 'visitLocation' in df_visits.columns:
+                visit_location_df = pd.json_normalize(df_visits['visitLocation'])
+                df_visits = pd.concat([df_visits, visit_location_df], axis=1)
+            
+                # Drop the original 'visitLocation' column
+                df_visits = df_visits.drop(columns='visitLocation')
+
+            visits_info_df = pd.concat([visits_info_df, df_visits])
+    
+    return visits_info_df

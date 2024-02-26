@@ -1,0 +1,394 @@
+blocks:
+- all_upstream_blocks_executed: true
+  color: null
+  configuration: {}
+  downstream_blocks:
+  - transform_pterodactyl_clients
+  - transform_pterodactyl_locations
+  - transform_pterodactyl_nodes
+  - transform_pterodactyl_allocations
+  - transform_pterodactyl_nests
+  - transform_pterodactyl_eggs
+  - transform_pterodactyl_servers
+  - transform_pterodactyl_client_server
+  executor_config: null
+  executor_type: local_python
+  has_callback: false
+  language: python
+  name: load_pterodactyl_app
+  retry_config: null
+  status: updated
+  timeout: null
+  type: data_loader
+  upstream_blocks: []
+  uuid: load_pterodactyl_app
+- all_upstream_blocks_executed: false
+  color: null
+  configuration: {}
+  downstream_blocks:
+  - export_pterodactyl_client_server
+  executor_config: null
+  executor_type: local_python
+  has_callback: false
+  language: python
+  name: transform_pterodactyl_client_server
+  retry_config: null
+  status: executed
+  timeout: null
+  type: transformer
+  upstream_blocks:
+  - load_pterodactyl_app
+  uuid: transform_pterodactyl_client_server
+- all_upstream_blocks_executed: false
+  color: null
+  configuration:
+    data_provider: postgres
+    data_provider_profile: DataWarehouse
+    dbt: {}
+    disable_query_preprocessing: true
+    export_write_policy: append
+    limit: 1000
+    upstream_block_configuration:
+      transform_pterodactyl_client_server:
+        table_name: pterodactyl.client_server_stg
+    use_raw_sql: true
+  downstream_blocks: []
+  executor_config: null
+  executor_type: local_python
+  has_callback: false
+  language: sql
+  name: export_pterodactyl_client_server
+  retry_config: null
+  status: updated
+  timeout: null
+  type: data_exporter
+  upstream_blocks:
+  - transform_pterodactyl_client_server
+  uuid: export_pterodactyl_client_server
+- all_upstream_blocks_executed: false
+  color: null
+  configuration: {}
+  downstream_blocks:
+  - export_pterodactyl_servers
+  executor_config: null
+  executor_type: local_python
+  has_callback: false
+  language: python
+  name: transform_pterodactyl_servers
+  retry_config: null
+  status: executed
+  timeout: null
+  type: transformer
+  upstream_blocks:
+  - load_pterodactyl_app
+  uuid: transform_pterodactyl_servers
+- all_upstream_blocks_executed: false
+  color: null
+  configuration:
+    data_provider: postgres
+    data_provider_profile: DataWarehouse
+    dbt: {}
+    disable_query_preprocessing: true
+    export_write_policy: append
+    limit: 1000
+    upstream_block_configuration:
+      transform_pterodactyl_servers:
+        table_name: pterodactyl.servers_stg
+    use_raw_sql: true
+  downstream_blocks: []
+  executor_config: null
+  executor_type: local_python
+  has_callback: false
+  language: sql
+  name: export_pterodactyl_servers
+  retry_config: null
+  status: executed
+  timeout: null
+  type: data_exporter
+  upstream_blocks:
+  - transform_pterodactyl_servers
+  uuid: export_pterodactyl_servers
+- all_upstream_blocks_executed: false
+  color: null
+  configuration: {}
+  downstream_blocks:
+  - export_pterodactyl_eggs
+  executor_config: null
+  executor_type: local_python
+  has_callback: false
+  language: python
+  name: transform_pterodactyl_eggs
+  retry_config: null
+  status: executed
+  timeout: null
+  type: transformer
+  upstream_blocks:
+  - load_pterodactyl_app
+  uuid: transform_pterodactyl_eggs
+- all_upstream_blocks_executed: false
+  color: null
+  configuration:
+    data_provider: postgres
+    data_provider_profile: DataWarehouse
+    dbt: {}
+    disable_query_preprocessing: true
+    export_write_policy: append
+    limit: 1000
+    upstream_block_configuration:
+      transform_pterodactyl_eggs:
+        table_name: pterodactyl.eggs_stg
+    use_raw_sql: true
+  downstream_blocks: []
+  executor_config: null
+  executor_type: local_python
+  has_callback: false
+  language: sql
+  name: export_pterodactyl_eggs
+  retry_config: null
+  status: executed
+  timeout: null
+  type: data_exporter
+  upstream_blocks:
+  - transform_pterodactyl_eggs
+  uuid: export_pterodactyl_eggs
+- all_upstream_blocks_executed: false
+  color: null
+  configuration: {}
+  downstream_blocks:
+  - export_pterodactyl_nests
+  executor_config: null
+  executor_type: local_python
+  has_callback: false
+  language: python
+  name: transform_pterodactyl_nests
+  retry_config: null
+  status: executed
+  timeout: null
+  type: transformer
+  upstream_blocks:
+  - load_pterodactyl_app
+  uuid: transform_pterodactyl_nests
+- all_upstream_blocks_executed: false
+  color: null
+  configuration:
+    data_provider: postgres
+    data_provider_profile: DataWarehouse
+    dbt: {}
+    disable_query_preprocessing: true
+    export_write_policy: append
+    limit: 1000
+    upstream_block_configuration:
+      transform_pterodactyl_nests:
+        table_name: pterodactyl.nests_stg
+    use_raw_sql: true
+  downstream_blocks: []
+  executor_config: null
+  executor_type: local_python
+  has_callback: false
+  language: sql
+  name: export_pterodactyl_nests
+  retry_config: null
+  status: executed
+  timeout: null
+  type: data_exporter
+  upstream_blocks:
+  - transform_pterodactyl_nests
+  uuid: export_pterodactyl_nests
+- all_upstream_blocks_executed: false
+  color: null
+  configuration: {}
+  downstream_blocks:
+  - export_pterodactyl_allocations
+  executor_config: null
+  executor_type: local_python
+  has_callback: false
+  language: python
+  name: transform_pterodactyl_allocations
+  retry_config: null
+  status: executed
+  timeout: null
+  type: transformer
+  upstream_blocks:
+  - load_pterodactyl_app
+  uuid: transform_pterodactyl_allocations
+- all_upstream_blocks_executed: false
+  color: null
+  configuration:
+    data_provider: postgres
+    data_provider_profile: DataWarehouse
+    dbt: {}
+    disable_query_preprocessing: true
+    export_write_policy: append
+    limit: 1000
+    upstream_block_configuration:
+      transform_pterodactyl_allocations:
+        table_name: pterodactyl.allocations_stg
+    use_raw_sql: true
+  downstream_blocks: []
+  executor_config: null
+  executor_type: local_python
+  has_callback: false
+  language: sql
+  name: export_pterodactyl_allocations
+  retry_config: null
+  status: executed
+  timeout: null
+  type: data_exporter
+  upstream_blocks:
+  - transform_pterodactyl_allocations
+  uuid: export_pterodactyl_allocations
+- all_upstream_blocks_executed: false
+  color: null
+  configuration: {}
+  downstream_blocks:
+  - export_pterodactyl_nodes
+  executor_config: null
+  executor_type: local_python
+  has_callback: false
+  language: python
+  name: transform_pterodactyl_nodes
+  retry_config: null
+  status: executed
+  timeout: null
+  type: transformer
+  upstream_blocks:
+  - load_pterodactyl_app
+  uuid: transform_pterodactyl_nodes
+- all_upstream_blocks_executed: false
+  color: null
+  configuration:
+    data_provider: postgres
+    data_provider_profile: DataWarehouse
+    dbt: {}
+    disable_query_preprocessing: true
+    export_write_policy: append
+    limit: 1000
+    upstream_block_configuration:
+      transform_pterodactyl_nodes:
+        table_name: pterodactyl.nodes_stg
+    use_raw_sql: true
+  downstream_blocks: []
+  executor_config: null
+  executor_type: local_python
+  has_callback: false
+  language: sql
+  name: export_pterodactyl_nodes
+  retry_config: null
+  status: executed
+  timeout: null
+  type: data_exporter
+  upstream_blocks:
+  - transform_pterodactyl_nodes
+  uuid: export_pterodactyl_nodes
+- all_upstream_blocks_executed: false
+  color: null
+  configuration: {}
+  downstream_blocks:
+  - export_pterodactyl_locations
+  executor_config: null
+  executor_type: local_python
+  has_callback: false
+  language: python
+  name: transform_pterodactyl_locations
+  retry_config: null
+  status: executed
+  timeout: null
+  type: transformer
+  upstream_blocks:
+  - load_pterodactyl_app
+  uuid: transform_pterodactyl_locations
+- all_upstream_blocks_executed: false
+  color: null
+  configuration:
+    data_provider: postgres
+    data_provider_profile: DataWarehouse
+    dbt: {}
+    disable_query_preprocessing: true
+    export_write_policy: append
+    limit: 1000
+    upstream_block_configuration:
+      transform_pterodactyl_locations:
+        table_name: pterodactyl.locations_stg
+    use_raw_sql: true
+  downstream_blocks: []
+  executor_config: null
+  executor_type: local_python
+  has_callback: false
+  language: sql
+  name: export_pterodactyl_locations
+  retry_config: null
+  status: updated
+  timeout: null
+  type: data_exporter
+  upstream_blocks:
+  - transform_pterodactyl_locations
+  uuid: export_pterodactyl_locations
+- all_upstream_blocks_executed: false
+  color: null
+  configuration: {}
+  downstream_blocks:
+  - export_pterodactyl_clients
+  executor_config: null
+  executor_type: local_python
+  has_callback: false
+  language: python
+  name: transform_pterodactyl_clients
+  retry_config: null
+  status: updated
+  timeout: null
+  type: transformer
+  upstream_blocks:
+  - load_pterodactyl_app
+  uuid: transform_pterodactyl_clients
+- all_upstream_blocks_executed: false
+  color: null
+  configuration:
+    data_provider: postgres
+    data_provider_profile: DataWarehouse
+    dbt: {}
+    disable_query_preprocessing: true
+    export_write_policy: append
+    limit: 1000
+    upstream_block_configuration:
+      transform_pterodactyl_client:
+        table_name: ''
+      transform_pterodactyl_clients:
+        table_name: pterodactyl.clients_stg
+    use_raw_sql: true
+  downstream_blocks: []
+  executor_config: null
+  executor_type: local_python
+  has_callback: false
+  language: sql
+  name: export_pterodactyl_clients
+  retry_config: null
+  status: updated
+  timeout: null
+  type: data_exporter
+  upstream_blocks:
+  - transform_pterodactyl_clients
+  uuid: export_pterodactyl_clients
+cache_block_output_in_memory: false
+callbacks: []
+concurrency_config: {}
+conditionals: []
+created_at: '2024-02-22 19:12:33.030692+00:00'
+data_integration: null
+description: null
+executor_config: {}
+executor_count: 1
+executor_type: null
+extensions: {}
+name: Pterodactyl Application
+notification_config: {}
+remote_variables_dir: null
+retry_config: {}
+run_pipeline_in_one_process: false
+settings:
+  triggers: null
+spark_config: {}
+tags: []
+type: python
+uuid: pterodactyl_application
+variables_dir: /home/src/mage_data/Andes
+widgets: []

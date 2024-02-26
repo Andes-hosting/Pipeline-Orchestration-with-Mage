@@ -1,0 +1,1 @@
+SELECT * FROM tuya.energy_devices;

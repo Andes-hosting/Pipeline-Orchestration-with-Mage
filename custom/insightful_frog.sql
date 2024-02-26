@@ -1,0 +1,1 @@
+SELECT servers.uuid FROM pterodactyl.servers  WHERE servers.is_active = true;
