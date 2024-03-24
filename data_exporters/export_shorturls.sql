@@ -11,4 +11,6 @@ ON CONFLICT (shortcode) DO
     visitscount = excluded.visitscount,
     maxvisits = excluded.maxvisits,
     validsince = excluded.validsince,
-    validuntil = excluded.validuntil
+    validuntil = excluded.validuntil;
+
+DROP TABLE {{ df_1 }};

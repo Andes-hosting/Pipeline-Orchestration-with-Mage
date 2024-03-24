@@ -4,7 +4,6 @@ blocks:
   configuration: {}
   downstream_blocks:
   - transform_shorturl_info
-  - import_visits_info
   executor_config: null
   executor_type: local_python
   has_callback: false
@@ -49,7 +48,8 @@ blocks:
       transform_shorturl_info:
         table_name: shlink.shorturls_stg
     use_raw_sql: true
-  downstream_blocks: []
+  downstream_blocks:
+  - import_visits_date
   executor_config: null
   executor_type: local_python
   has_callback: false
@@ -64,21 +64,48 @@ blocks:
   uuid: export_shorturls
 - all_upstream_blocks_executed: true
   color: null
-  configuration: {}
+  configuration:
+    data_provider: postgres
+    data_provider_profile: DataWarehouse
+    dbt: {}
+    disable_query_preprocessing: false
+    export_write_policy: append
+    limit: 1000
+    use_raw_sql: true
   downstream_blocks:
-  - transform_visits_info
+  - import_visits
   executor_config: null
   executor_type: local_python
   has_callback: false
-  language: python
-  name: import_visits_info
+  language: sql
+  name: import_visits_date
   retry_config: null
   status: executed
   timeout: null
   type: data_loader
   upstream_blocks:
-  - import_shortuls_info
-  uuid: import_visits_info
+  - export_shorturls
+  uuid: import_visits_date
+- all_upstream_blocks_executed: true
+  color: null
+  configuration:
+    data_provider: postgres
+    data_provider_profile: DataWarehouse
+    export_write_policy: append
+  downstream_blocks:
+  - transform_visits
+  executor_config: null
+  executor_type: local_python
+  has_callback: false
+  language: python
+  name: import_visits
+  retry_config: null
+  status: executed
+  timeout: null
+  type: data_loader
+  upstream_blocks:
+  - import_visits_date
+  uuid: import_visits
 - all_upstream_blocks_executed: true
   color: null
   configuration: {}
@@ -88,15 +115,15 @@ blocks:
   executor_type: local_python
   has_callback: false
   language: python
-  name: transform_visits_info
+  name: transform_visits
   retry_config: null
-  status: executed
+  status: failed
   timeout: null
   type: transformer
   upstream_blocks:
-  - import_visits_info
-  uuid: transform_visits_info
-- all_upstream_blocks_executed: true
+  - import_visits
+  uuid: transform_visits
+- all_upstream_blocks_executed: false
   color: null
   configuration:
     data_provider: postgres
@@ -109,6 +136,8 @@ blocks:
       path: data_exporters/export_visits.sql
     limit: 1000
     upstream_block_configuration:
+      transform_visits:
+        table_name: shlink.visits_stg
       transform_visits_info:
         table_name: shlink.visits_stg
     use_raw_sql: true
@@ -123,12 +152,29 @@ blocks:
   timeout: null
   type: data_exporter
   upstream_blocks:
-  - transform_visits_info
+  - transform_visits
   uuid: export_visits
 cache_block_output_in_memory: false
 callbacks: []
 concurrency_config: {}
-conditionals: []
+conditionals:
+- all_upstream_blocks_executed: false
+  color: null
+  configuration: {}
+  downstream_blocks: []
+  executor_config: null
+  executor_type: local_python
+  has_callback: false
+  language: python
+  name: conditional_data_not_empty
+  retry_config: null
+  status: updated
+  timeout: null
+  type: conditional
+  upstream_blocks:
+  - transform_visits
+  - export_visits
+  uuid: conditional_data_not_empty
 created_at: '2024-02-24 23:50:07.180485+00:00'
 data_integration: null
 description: null

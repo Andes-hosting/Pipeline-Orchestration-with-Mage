@@ -1,0 +1,60 @@
+[06:01:37] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[06:01:39] [ServerMain/INFO]: Loaded 7 recipes
+[06:01:39] [ServerMain/INFO]: Loaded 1271 advancements
+[06:01:40] [Server thread/INFO]: Starting minecraft server version 1.20.4
+[06:01:40] [Server thread/INFO]: Loading properties
+[06:01:40] [Server thread/INFO]: Default game type: SURVIVAL
+[06:01:40] [Server thread/INFO]: Generating keypair
+[06:01:40] [Server thread/INFO]: Starting Minecraft server on 0.0.0.0:27000
+[06:01:40] [Server thread/INFO]: Using epoll channel type
+[06:01:40] [Server thread/INFO]: Preparing level "world"
+[06:01:41] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[06:01:44] [Worker-Main-19/INFO]: Preparing spawn area: 0%
+[06:01:44] [Worker-Main-10/INFO]: Preparing spawn area: 0%
+[06:01:45] [Worker-Main-11/INFO]: Preparing spawn area: 0%
+[06:01:45] [Worker-Main-20/INFO]: Preparing spawn area: 0%
+[06:01:45] [Worker-Main-7/INFO]: Preparing spawn area: 0%
+[06:01:45] [Worker-Main-7/INFO]: Preparing spawn area: 0%
+[06:01:45] [Worker-Main-7/INFO]: Preparing spawn area: 0%
+[06:01:45] [Worker-Main-22/INFO]: Preparing spawn area: 0%
+[06:01:45] [Worker-Main-22/INFO]: Preparing spawn area: 0%
+[06:01:46] [Worker-Main-15/INFO]: Preparing spawn area: 5%
+[06:01:46] [Worker-Main-21/INFO]: Preparing spawn area: 44%
+[06:01:47] [Worker-Main-11/INFO]: Preparing spawn area: 83%
+[06:01:47] [Server thread/INFO]: Time elapsed: 5750 ms
+[06:01:47] [Server thread/INFO]: Done (6.673s)! For help, type "help"
+[11:30:55] [User Authenticator #1/INFO]: UUID of player ZaosKeysalor is c9f947b0-af80-47c3-a303-5740993c2038
+[11:30:56] [Server thread/INFO]: ZaosKeysalor[/152.172.122.22:59581] logged in with entity id 90 at (3599.699999988079, 194.0, -1292.9462991802068)
+[11:30:56] [Server thread/INFO]: ZaosKeysalor joined the game
+[11:37:39] [Server thread/WARN]: Mismatch in destroy block pos: hx{x=476, y=85, z=-159} hx{x=476, y=86, z=-159}
+[11:37:39] [Server thread/WARN]: Mismatch in destroy block pos: hx{x=476, y=85, z=-159} hx{x=476, y=86, z=-159}
+[11:37:39] [Server thread/WARN]: Mismatch in destroy block pos: hx{x=476, y=86, z=-160} hx{x=476, y=86, z=-161}
+[11:40:26] [Server thread/WARN]: Mismatch in destroy block pos: hx{x=517, y=39, z=-189} hx{x=518, y=39, z=-190}
+[11:40:26] [Server thread/WARN]: Mismatch in destroy block pos: hx{x=517, y=39, z=-189} hx{x=518, y=39, z=-190}
+[11:40:26] [Server thread/WARN]: Mismatch in destroy block pos: hx{x=517, y=39, z=-189} hx{x=518, y=39, z=-190}
+[11:41:43] [Server thread/WARN]: Mismatch in destroy block pos: hx{x=549, y=38, z=-202} hx{x=548, y=39, z=-202}
+[11:46:27] [Server thread/INFO]: ZaosKeysalor tried to swim in lava
+[11:48:49] [Server thread/WARN]: Mismatch in destroy block pos: hx{x=424, y=117, z=-150} hx{x=426, y=116, z=-150}
+[11:48:49] [Server thread/WARN]: Mismatch in destroy block pos: hx{x=424, y=117, z=-150} hx{x=426, y=116, z=-150}
+[11:48:49] [Server thread/WARN]: Mismatch in destroy block pos: hx{x=424, y=117, z=-150} hx{x=426, y=116, z=-150}
+[11:48:49] [Server thread/WARN]: Mismatch in destroy block pos: hx{x=424, y=117, z=-150} hx{x=426, y=116, z=-150}
+[11:48:49] [Server thread/WARN]: Mismatch in destroy block pos: hx{x=424, y=117, z=-150} hx{x=426, y=116, z=-150}
+[11:48:50] [Server thread/WARN]: Mismatch in destroy block pos: hx{x=424, y=117, z=-150} hx{x=426, y=116, z=-150}
+[11:49:51] [Server thread/WARN]: Mismatch in destroy block pos: hx{x=368, y=114, z=-151} hx{x=368, y=113, z=-151}
+[11:49:51] [Server thread/WARN]: Mismatch in destroy block pos: hx{x=368, y=114, z=-151} hx{x=368, y=113, z=-151}
+[11:50:17] [Server thread/WARN]: Mismatch in destroy block pos: hx{x=364, y=112, z=-155} hx{x=352, y=110, z=-151}
+[11:50:17] [Server thread/WARN]: Mismatch in destroy block pos: hx{x=364, y=112, z=-155} hx{x=352, y=110, z=-151}
+[11:51:14] [Server thread/WARN]: Mismatch in destroy block pos: hx{x=327, y=111, z=-149} hx{x=326, y=112, z=-152}
+[11:51:15] [Server thread/WARN]: Mismatch in destroy block pos: hx{x=327, y=111, z=-149} hx{x=326, y=112, z=-152}
+[11:51:15] [Server thread/WARN]: Mismatch in destroy block pos: hx{x=327, y=111, z=-149} hx{x=326, y=112, z=-152}
+[11:51:17] [Server thread/WARN]: Mismatch in destroy block pos: hx{x=320, y=111, z=-149} hx{x=319, y=111, z=-149}
+[11:51:17] [Server thread/WARN]: Mismatch in destroy block pos: hx{x=320, y=111, z=-149} hx{x=319, y=111, z=-149}
+[11:51:17] [Server thread/WARN]: Mismatch in destroy block pos: hx{x=320, y=111, z=-149} hx{x=319, y=111, z=-149}
+[11:51:55] [Server thread/INFO]: ZaosKeysalor tried to swim in lava
+[12:00:50] [Server thread/INFO]: ZaosKeysalor lost connection: Disconnected
+[12:00:50] [Server thread/INFO]: ZaosKeysalor left the game
+[14:23:05] [User Authenticator #2/INFO]: UUID of player LeeroyPerkins is 2bdc2115-56e5-455a-ae7a-ec0c69f7e3cb
+[14:23:06] [Server thread/INFO]: LeeroyPerkins[/186.78.108.25:53660] logged in with entity id 6066 at (3465.9403550915167, 113.0, -1396.6620556911546)
+[14:23:06] [Server thread/INFO]: LeeroyPerkins joined the game
+[14:26:15] [Server thread/INFO]: LeeroyPerkins lost connection: Disconnected
+[14:26:15] [Server thread/INFO]: LeeroyPerkins left the game

@@ -16,3 +16,15 @@ CREATE TABLE shlink.shorturls (
     validsince timestamptz NULL,
     validuntil timestamptz NULL
 );
+
+CREATE TABLE shlink.visits (
+	short_url_id int4 NOT NULL REFERENCES shlink.shorturls(id),
+	referer text NULL,
+	date timestamptz NOT NULL,
+	countryname text,
+	regionname text,
+	timezone text,
+	browser text NOT NULL,
+	operating_system text NOT NULL,
+    device text NOT NULL
+);

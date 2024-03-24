@@ -1,0 +1,29 @@
+[06:02:02] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[06:02:04] [ServerMain/INFO]: Loaded 7 recipes
+[06:02:04] [ServerMain/INFO]: Loaded 1271 advancements
+[06:02:05] [Server thread/INFO]: Starting minecraft server version 1.20.4
+[06:02:05] [Server thread/INFO]: Loading properties
+[06:02:05] [Server thread/INFO]: Default game type: SURVIVAL
+[06:02:05] [Server thread/INFO]: Generating keypair
+[06:02:05] [Server thread/INFO]: Starting Minecraft server on 0.0.0.0:27000
+[06:02:05] [Server thread/INFO]: Using epoll channel type
+[06:02:05] [Server thread/INFO]: Preparing level "world"
+[06:02:06] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[06:02:09] [Worker-Main-18/INFO]: Preparing spawn area: 0%
+[06:02:09] [Worker-Main-7/INFO]: Preparing spawn area: 0%
+[06:02:09] [Worker-Main-18/INFO]: Preparing spawn area: 0%
+[06:02:09] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[06:02:09] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[06:02:09] [Worker-Main-14/INFO]: Preparing spawn area: 0%
+[06:02:09] [Worker-Main-18/INFO]: Preparing spawn area: 0%
+[06:02:10] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[06:02:10] [Worker-Main-18/INFO]: Preparing spawn area: 0%
+[06:02:11] [Worker-Main-12/INFO]: Preparing spawn area: 24%
+[06:02:11] [Worker-Main-2/INFO]: Preparing spawn area: 64%
+[06:02:12] [Server thread/INFO]: Time elapsed: 5428 ms
+[06:02:12] [Server thread/INFO]: Done (6.342s)! For help, type "help"
+[11:16:59] [User Authenticator #1/INFO]: UUID of player LeeroyPerkins is 2bdc2115-56e5-455a-ae7a-ec0c69f7e3cb
+[11:16:59] [Server thread/INFO]: LeeroyPerkins[/186.78.119.171:52819] logged in with entity id 93 at (3462.7367535627245, 113.0, -1393.2475049680702)
+[11:16:59] [Server thread/INFO]: LeeroyPerkins joined the game
+[12:07:29] [Server thread/INFO]: LeeroyPerkins lost connection: Disconnected
+[12:07:29] [Server thread/INFO]: LeeroyPerkins left the game

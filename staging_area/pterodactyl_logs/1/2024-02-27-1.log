@@ -1,0 +1,134 @@
+[06:01:39] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[06:01:40] [ServerMain/INFO]: Loaded 7 recipes
+[06:01:40] [ServerMain/INFO]: Loaded 1271 advancements
+[06:01:41] [Server thread/INFO]: Starting minecraft server version 1.20.4
+[06:01:41] [Server thread/INFO]: Loading properties
+[06:01:41] [Server thread/INFO]: Default game type: SURVIVAL
+[06:01:41] [Server thread/INFO]: Generating keypair
+[06:01:41] [Server thread/INFO]: Starting Minecraft server on 0.0.0.0:27000
+[06:01:41] [Server thread/INFO]: Using epoll channel type
+[06:01:42] [Server thread/INFO]: Preparing level "world"
+[06:01:42] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[06:01:45] [Worker-Main-13/INFO]: Preparing spawn area: 0%
+[06:01:45] [Worker-Main-13/INFO]: Preparing spawn area: 0%
+[06:01:45] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[06:01:45] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[06:01:45] [Worker-Main-12/INFO]: Preparing spawn area: 0%
+[06:01:45] [Worker-Main-13/INFO]: Preparing spawn area: 0%
+[06:01:45] [Worker-Main-13/INFO]: Preparing spawn area: 0%
+[06:01:46] [Worker-Main-17/INFO]: Preparing spawn area: 0%
+[06:01:46] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[06:01:47] [Worker-Main-8/INFO]: Preparing spawn area: 16%
+[06:01:47] [Worker-Main-5/INFO]: Preparing spawn area: 50%
+[06:01:48] [Worker-Main-11/INFO]: Preparing spawn area: 89%
+[06:01:48] [Server thread/INFO]: Time elapsed: 5599 ms
+[06:01:48] [Server thread/INFO]: Done (6.556s)! For help, type "help"
+[11:09:12] [User Authenticator #1/INFO]: UUID of player ZaosKeysalor is c9f947b0-af80-47c3-a303-5740993c2038
+[11:09:13] [Server thread/INFO]: ZaosKeysalor[/152.172.121.123:51190] logged in with entity id 92 at (3341.9697365432044, 111.0, -1342.686230124093)
+[11:09:13] [Server thread/INFO]: ZaosKeysalor joined the game
+[11:15:15] [User Authenticator #2/INFO]: UUID of player MissMinuArt is dca46a5d-5d60-487e-9bf7-e9d7eb1239dc
+[11:15:15] [Server thread/INFO]: MissMinuArt[/152.172.121.123:59884] logged in with entity id 1319 at (3515.328530021203, 67.0, -1384.552196557216)
+[11:15:15] [Server thread/INFO]: MissMinuArt joined the game
+[11:35:18] [Server thread/INFO]: MissMinuArt has made the advancement [Enchanter]
+[11:53:25] [User Authenticator #3/INFO]: UUID of player LeeroyPerkins is 2bdc2115-56e5-455a-ae7a-ec0c69f7e3cb
+[11:53:25] [Server thread/INFO]: LeeroyPerkins[/190.45.20.186:61727] logged in with entity id 13350 at (3451.090104350433, 119.0, -1394.007976153651)
+[11:53:25] [Server thread/INFO]: LeeroyPerkins joined the game
+[11:53:34] [Server thread/INFO]: <LeeroyPerkins> holi
+[12:13:21] [Server thread/WARN]: ZaosKeysalor moved too quickly! 6.1498146963785985,0.41999998688697815,-8.468610372587136
+[12:22:12] [Server thread/WARN]: LeeroyPerkins moved too quickly! -3.314250107220232,-8.346270382411404,5.6688184575364176
+[12:25:54] [Server thread/INFO]: ZaosKeysalor lost connection: Disconnected
+[12:25:54] [Server thread/INFO]: ZaosKeysalor left the game
+[12:31:57] [Server thread/WARN]: LeeroyPerkins moved too quickly! -3.414986032424167,2.1708129081422953,-9.280359798270638
+[12:32:07] [User Authenticator #4/INFO]: UUID of player ZaosKeysalor is c9f947b0-af80-47c3-a303-5740993c2038
+[12:32:07] [Server thread/INFO]: ZaosKeysalor[/152.172.121.123:51686] logged in with entity id 29112 at (5002.300000011921, 26.0, -3589.699999988079)
+[12:32:07] [Server thread/INFO]: ZaosKeysalor joined the game
+[12:32:30] [Server thread/WARN]: LeeroyPerkins moved too quickly! -1.9690689211529389,1.5800000131130219,-9.761189574764103
+[12:32:35] [Server thread/WARN]: LeeroyPerkins moved too quickly! 3.7416119328845525,2.247851099632541,-9.247005909840482
+[12:35:59] [Server thread/INFO]: ZaosKeysalor was killed by Witch using magic
+[12:36:36] [Server thread/WARN]: LeeroyPerkins moved too quickly! 4.934161787475659,0.0,-8.847295325929508
+[12:48:42] [Server thread/WARN]: LeeroyPerkins moved too quickly! 8.482305833588725,2.0,4.926377212512307
+[13:06:44] [Server thread/INFO]: ZaosKeysalor was slain by Wolf
+[13:11:49] [Server thread/INFO]: MissMinuArt fell from a high place
+[13:13:13] [Server thread/INFO]: MissMinuArt was slain by ZaosKeysalor
+[13:13:14] [Server thread/WARN]: MissMinuArt moved too quickly! 13.474523057424449,-0.4375,-2.7751442624435185
+[13:13:28] [Server thread/INFO]: ZaosKeysalor was slain by MissMinuArt
+[13:19:49] [Server thread/INFO]: MissMinuArt has made the advancement [Fishy Business]
+[13:54:38] [Server thread/INFO]: Villager cev['Cleric'/53687, l='ServerLevel[world]', x=3676.26, y=64.54, z=-1234.39] died, message: 'Cleric was slain by Zombie'
+[14:00:06] [Server thread/INFO]: LeeroyPerkins lost connection: Disconnected
+[14:00:06] [Server thread/INFO]: LeeroyPerkins left the game
+[14:33:59] [User Authenticator #5/INFO]: UUID of player Reeckk is 93237272-4e50-4b2f-8bc4-f3c2d284a9d6
+[14:33:59] [Server thread/INFO]: Reeckk[/152.172.99.213:50942] logged in with entity id 67585 at (3199.1503534876038, 63.0, -1315.6014182509284)
+[14:33:59] [Server thread/INFO]: Reeckk joined the game
+[15:17:48] [Server thread/INFO]: Reeckk lost connection: Disconnected
+[15:17:48] [Server thread/INFO]: Reeckk left the game
+[15:21:32] [Server thread/INFO]: ZaosKeysalor was impaled by MissMinuArt
+[15:25:22] [User Authenticator #6/INFO]: UUID of player LeeroyPerkins is 2bdc2115-56e5-455a-ae7a-ec0c69f7e3cb
+[15:25:22] [Server thread/INFO]: LeeroyPerkins[/190.45.20.186:50895] logged in with entity id 81389 at (3406.6398211812975, 66.0, -1246.4526309879293)
+[15:25:22] [Server thread/INFO]: LeeroyPerkins joined the game
+[15:27:30] [User Authenticator #7/INFO]: UUID of player Reeckk is 93237272-4e50-4b2f-8bc4-f3c2d284a9d6
+[15:27:30] [Server thread/INFO]: Reeckk[/152.172.99.213:51665] logged in with entity id 82153 at (3712.300000011921, 87.0, -1925.699999988079)
+[15:27:30] [Server thread/INFO]: Reeckk joined the game
+[15:27:35] [Server thread/INFO]: Reeckk lost connection: Disconnected
+[15:27:35] [Server thread/INFO]: Reeckk left the game
+[15:27:37] [User Authenticator #8/INFO]: UUID of player Reeckk is 93237272-4e50-4b2f-8bc4-f3c2d284a9d6
+[15:27:37] [Server thread/INFO]: Reeckk[/152.172.99.213:51669] logged in with entity id 82403 at (3712.300000011921, 87.0, -1925.699999988079)
+[15:27:37] [Server thread/INFO]: Reeckk joined the game
+[15:28:16] [Server thread/INFO]: Reeckk lost connection: Disconnected
+[15:28:16] [Server thread/INFO]: Reeckk left the game
+[15:35:37] [Server thread/INFO]: MissMinuArt was shot by LeeroyPerkins
+[15:46:07] [Server thread/INFO]: ZaosKeysalor fell from a high place
+[15:51:00] [User Authenticator #9/INFO]: UUID of player Reeckk is 93237272-4e50-4b2f-8bc4-f3c2d284a9d6
+[15:51:01] [Server thread/INFO]: Reeckk[/152.172.99.213:53464] logged in with entity id 89319 at (3712.300000011921, 87.0, -1925.699999988079)
+[15:51:01] [Server thread/INFO]: Reeckk joined the game
+[15:51:11] [Server thread/INFO]: Reeckk lost connection: Disconnected
+[15:51:11] [Server thread/INFO]: Reeckk left the game
+[15:53:15] [Server thread/INFO]: MissMinuArt lost connection: Disconnected
+[15:53:15] [Server thread/INFO]: MissMinuArt left the game
+[15:56:46] [User Authenticator #10/INFO]: UUID of player Reeckk is 93237272-4e50-4b2f-8bc4-f3c2d284a9d6
+[15:56:46] [Server thread/INFO]: Reeckk[/152.172.99.213:53914] logged in with entity id 90764 at (3712.576405025406, 87.0, -1925.6947067545032)
+[15:56:46] [Server thread/INFO]: Reeckk joined the game
+[15:56:52] [Server thread/INFO]: Reeckk lost connection: Disconnected
+[15:56:52] [Server thread/INFO]: Reeckk left the game
+[16:03:52] [Server thread/INFO]: ZaosKeysalor lost connection: Disconnected
+[16:03:52] [Server thread/INFO]: ZaosKeysalor left the game
+[16:04:19] [Server thread/INFO]: LeeroyPerkins lost connection: Disconnected
+[16:04:19] [Server thread/INFO]: LeeroyPerkins left the game
+[19:07:38] [User Authenticator #11/INFO]: UUID of player LeeroyPerkins is 2bdc2115-56e5-455a-ae7a-ec0c69f7e3cb
+[19:07:38] [Server thread/INFO]: LeeroyPerkins[/190.45.20.186:51728] logged in with entity id 92429 at (3462.2788445824476, 113.0, -1388.5488746411384)
+[19:07:38] [Server thread/INFO]: LeeroyPerkins joined the game
+[19:19:18] [User Authenticator #12/INFO]: UUID of player ZaosKeysalor is c9f947b0-af80-47c3-a303-5740993c2038
+[19:19:18] [Server thread/INFO]: ZaosKeysalor[/152.172.121.123:51139] logged in with entity id 94766 at (3597.552375523133, 246.0, -1292.699999988079)
+[19:19:18] [Server thread/INFO]: ZaosKeysalor joined the game
+[19:20:58] [Server thread/INFO]: <LeeroyPerkins> llegó mi hermano con su familia, me tengo que ir, me conecto más tarde
+[19:21:08] [Server thread/INFO]: LeeroyPerkins lost connection: Disconnected
+[19:21:08] [Server thread/INFO]: LeeroyPerkins left the game
+[19:21:08] [Server thread/INFO]: <ZaosKeysalor> DALE BRO
+[19:30:53] [Server thread/INFO]: ZaosKeysalor was slain by Spider
+[19:56:20] [Server thread/INFO]: ZaosKeysalor fell from a high place
+[19:56:22] [Server thread/WARN]: ZaosKeysalor moved too quickly! 3.4952971489274205,5.808584521853788,-11.936429104758872
+[20:12:52] [Server thread/INFO]: ZaosKeysalor fell from a high place
+[21:13:56] [Server thread/INFO]: ZaosKeysalor was burned to a crisp while fighting ZaosKeysalor
+[21:14:01] [Server thread/INFO]: ZaosKeysalor lost connection: Disconnected
+[21:14:01] [Server thread/INFO]: ZaosKeysalor left the game
+[21:15:58] [User Authenticator #13/INFO]: UUID of player LeeroyPerkins is 2bdc2115-56e5-455a-ae7a-ec0c69f7e3cb
+[21:15:59] [Server thread/INFO]: LeeroyPerkins[/190.45.20.186:55997] logged in with entity id 116547 at (3416.580751478336, 64.0, -1245.5608500301732)
+[21:15:59] [Server thread/INFO]: LeeroyPerkins joined the game
+[21:36:35] [Server thread/INFO]: LeeroyPerkins lost connection: Disconnected
+[21:36:35] [Server thread/INFO]: LeeroyPerkins left the game
+[21:42:31] [User Authenticator #14/INFO]: UUID of player MissMinuArt is dca46a5d-5d60-487e-9bf7-e9d7eb1239dc
+[21:42:31] [Server thread/INFO]: MissMinuArt[/152.172.121.123:52326] logged in with entity id 119635 at (3500.6870925646786, 85.0, -1379.994413048472)
+[21:42:31] [Server thread/INFO]: MissMinuArt joined the game
+[22:18:13] [User Authenticator #15/INFO]: UUID of player LeeroyPerkins is 2bdc2115-56e5-455a-ae7a-ec0c69f7e3cb
+[22:18:13] [Server thread/INFO]: LeeroyPerkins[/190.45.20.186:56143] logged in with entity id 125583 at (3418.897643659679, 65.5625, -1245.998948170959)
+[22:18:13] [Server thread/INFO]: LeeroyPerkins joined the game
+[22:18:23] [Server thread/INFO]: <MissMinuArt> holi!
+[22:18:31] [Server thread/INFO]: <LeeroyPerkins> holo
+[22:30:45] [Server thread/INFO]: MissMinuArt lost connection: Disconnected
+[22:30:45] [Server thread/INFO]: MissMinuArt left the game
+[22:32:23] [Server thread/INFO]: LeeroyPerkins lost connection: Disconnected
+[22:32:23] [Server thread/INFO]: LeeroyPerkins left the game
+[22:33:36] [User Authenticator #16/INFO]: UUID of player LeeroyPerkins is 2bdc2115-56e5-455a-ae7a-ec0c69f7e3cb
+[22:33:36] [Server thread/INFO]: LeeroyPerkins[/190.45.20.186:56430] logged in with entity id 130230 at (3539.300000011921, 63.0, -1292.3529190797474)
+[22:33:36] [Server thread/INFO]: LeeroyPerkins joined the game
+[22:40:55] [Server thread/INFO]: LeeroyPerkins lost connection: Disconnected
+[22:40:55] [Server thread/INFO]: LeeroyPerkins left the game

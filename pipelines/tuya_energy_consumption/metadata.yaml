@@ -10,12 +10,12 @@ blocks:
   language: python
   name: Tuya API data
   retry_config: null
-  status: executed
+  status: updated
   timeout: null
   type: data_loader
   upstream_blocks: []
   uuid: tuya_api_data
-- all_upstream_blocks_executed: true
+- all_upstream_blocks_executed: false
   color: null
   configuration: {}
   downstream_blocks:
@@ -26,13 +26,13 @@ blocks:
   language: python
   name: Tuya data transformation
   retry_config: null
-  status: executed
+  status: updated
   timeout: null
   type: transformer
   upstream_blocks:
   - tuya_api_data
   uuid: tuya_data_transformation
-- all_upstream_blocks_executed: true
+- all_upstream_blocks_executed: false
   color: null
   configuration:
     data_provider: postgres

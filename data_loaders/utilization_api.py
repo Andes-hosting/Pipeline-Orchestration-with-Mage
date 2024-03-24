@@ -1,25 +1,9 @@
-import io, time
-import pandas as pd
-import requests
-import os
-from pydactyl import PterodactylClient
-from sqlalchemy import create_engine, text
-from datetime import datetime
 from mage_ai.data_preparation.shared.secrets import get_secret_value
-
-if 'data_loader' not in globals():
-    from mage_ai.data_preparation.decorators import data_loader
-if 'test' not in globals():
-    from mage_ai.data_preparation.decorators import test
-
-
-
+from pydactyl import PterodactylClient
 
 @data_loader
-def load_data_from_api(df, *args, **kwargs):
-    """
-    Template for loading data from API
-    """
+def load_data_from_api(data, *args, **kwargs):
+
     # Connecto to Pterodactyl Application API
     api_app = PterodactylClient(
                 url = get_secret_value('pterodactyl_url'), 
@@ -37,7 +21,7 @@ def load_data_from_api(df, *args, **kwargs):
     WAITING_TIME = 1 # the time it takes to rest after getting date from each server [seconds]
 
     # Define the schema and extrat all uuid from every server from postgres
-    list_servers = [uuid for uuid, in df] #remove the tuples of uuid from results
+    list_servers = [uuid for uuid, in data] #remove the tuples of uuid from results
 
     # Extract the data from every uuid in the postgres database
     all_utilizations = []

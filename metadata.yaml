@@ -47,12 +47,27 @@ notification_config:
   alert_on:
   - trigger_failure
   - trigger_passed_sla
+  email_config:
+    smtp_host: smtp.gmail.com
+    smtp_mail_from: contacto@andes-hosting.com
+    smtp_user: "{{ mage_secret_var('email_user') }}"
+    smtp_password: "{{ mage_secret_var('email_password') }}"
+    to_emails:
+      - vmdcortes@gmail.com
+      - gonzalomhenriquez13@gmail.com
+  message_templates:
+    failure:
+      title: Failed to execute pipeline {pipeline_uuid} at {execution_time}
+      details: >
+        Failed to execute pipeline {pipeline_run_url}.
+        Pipeline uuid: {pipeline_uuid}. Trigger name: {pipeline_schedule_name}.
+        Please check the error as soon as possible to resolve this critical issue."
   slack_config:
     webhook_url: "{{ env_var('MAGE_SLACK_WEBHOOK_URL') }}"
   teams_config:
     webhook_url: "{{ env_var('MAGE_TEAMS_WEBHOOK_URL') }}"
 project_uuid: 190767618ba34e60bd69633a621a3a19
-help_improve_mage: false
+help_improve_mage: true
 features:
   command_center: true
   display_local_timezone: true

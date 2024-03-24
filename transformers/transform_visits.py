@@ -33,5 +33,8 @@ def transform(visits_info_df, *args, **kwargs):
     # Assuming urls_df is your DataFrame
     visits_info_df.columns = visits_info_df.columns.str.lower()
 
+    # Change date column from string to timestamp
+    visits_info_df['date'] = pd.to_datetime(visits_info_df['date'])
+
     # Display the modified DataFrame
     return visits_info_df

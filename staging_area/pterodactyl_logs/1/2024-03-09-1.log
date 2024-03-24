@@ -1,0 +1,57 @@
+[06:01:40] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[06:01:41] [ServerMain/INFO]: Loaded 7 recipes
+[06:01:42] [ServerMain/INFO]: Loaded 1271 advancements
+[06:01:43] [Server thread/INFO]: Starting minecraft server version 1.20.4
+[06:01:43] [Server thread/INFO]: Loading properties
+[06:01:43] [Server thread/INFO]: Default game type: SURVIVAL
+[06:01:43] [Server thread/INFO]: Generating keypair
+[06:01:43] [Server thread/INFO]: Starting Minecraft server on 0.0.0.0:27000
+[06:01:43] [Server thread/INFO]: Using epoll channel type
+[06:01:43] [Server thread/INFO]: Preparing level "world"
+[06:01:44] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[06:01:47] [Worker-Main-10/INFO]: Preparing spawn area: 0%
+[06:01:47] [Worker-Main-21/INFO]: Preparing spawn area: 0%
+[06:01:47] [Worker-Main-7/INFO]: Preparing spawn area: 0%
+[06:01:47] [Worker-Main-9/INFO]: Preparing spawn area: 0%
+[06:01:47] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[06:01:47] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[06:01:47] [Worker-Main-12/INFO]: Preparing spawn area: 0%
+[06:01:47] [Worker-Main-21/INFO]: Preparing spawn area: 0%
+[06:01:48] [Worker-Main-18/INFO]: Preparing spawn area: 0%
+[06:01:48] [Worker-Main-10/INFO]: Preparing spawn area: 7%
+[06:01:49] [Worker-Main-3/INFO]: Preparing spawn area: 42%
+[06:01:49] [Worker-Main-21/INFO]: Preparing spawn area: 83%
+[06:01:49] [Server thread/INFO]: Time elapsed: 5726 ms
+[06:01:49] [Server thread/INFO]: Done (6.700s)! For help, type "help"
+[11:01:11] [User Authenticator #1/INFO]: UUID of player MissMinuArt is dca46a5d-5d60-487e-9bf7-e9d7eb1239dc
+[11:01:11] [Server thread/INFO]: MissMinuArt[/152.172.121.123:63421] logged in with entity id 94 at (3340.508000372575, 117.0, -1369.5060853742837)
+[11:01:11] [Server thread/INFO]: MissMinuArt joined the game
+[11:22:02] [Server thread/INFO]: MissMinuArt lost connection: Disconnected
+[11:22:02] [Server thread/INFO]: MissMinuArt left the game
+[20:24:22] [User Authenticator #2/INFO]: UUID of player MissMinuArt is dca46a5d-5d60-487e-9bf7-e9d7eb1239dc
+[20:24:23] [Server thread/INFO]: MissMinuArt[/152.172.121.123:53093] logged in with entity id 4754 at (3517.581077045937, 71.0, -1970.1324016686344)
+[20:24:23] [Server thread/INFO]: MissMinuArt joined the game
+[20:27:52] [User Authenticator #3/INFO]: UUID of player ZaosKeysalor is c9f947b0-af80-47c3-a303-5740993c2038
+[20:27:52] [Server thread/INFO]: ZaosKeysalor[/152.172.121.123:53737] logged in with entity id 5635 at (3409.300000011921, 64.0, -1245.699999988079)
+[20:27:52] [Server thread/INFO]: ZaosKeysalor joined the game
+[20:28:02] [Server thread/INFO]: <ZaosKeysalor> duerme!!
+[20:28:10] [Server thread/INFO]: <ZaosKeysalor> degolladero?
+[20:29:24] [Server thread/INFO]: <MissMinuArt> si
+[20:31:40] [Server thread/WARN]: Mismatch in destroy block pos: hx{x=3509, y=54, z=-2155} hx{x=3509, y=55, z=-2155}
+[20:33:57] [Server thread/INFO]: Villager cev['Villager'/7680, l='ServerLevel[world]', x=3565.68, y=64.00, z=-2324.68] died, message: 'Villager was shot by Pillager'
+[20:38:46] [Server thread/INFO]: Villager cev['Mason'/7605, l='ServerLevel[world]', x=3556.65, y=64.00, z=-2334.78] died, message: 'Mason was slain by Ravager'
+[20:39:03] [Server thread/INFO]: Villager cev['Farmer'/5535, l='ServerLevel[world]', x=3555.01, y=64.00, z=-2315.51] died, message: 'Farmer was slain by Ravager'
+[20:39:46] [Server thread/INFO]: Villager cev['Nitwit'/7599, l='ServerLevel[world]', x=3564.46, y=64.00, z=-2318.74] died, message: 'Nitwit was shot by Pillager'
+[20:39:50] [Server thread/INFO]: Villager cev['Farmer'/5534, l='ServerLevel[world]', x=3576.77, y=63.25, z=-2310.58] died, message: 'Farmer was shot by Pillager'
+[20:40:46] [Server thread/INFO]: ZaosKeysalor lost connection: Disconnected
+[20:40:46] [Server thread/INFO]: ZaosKeysalor left the game
+[20:42:35] [Server thread/INFO]: Villager cev['Villager'/5536, l='ServerLevel[world]', x=3598.30, y=58.05, z=-2311.22] died, message: 'Villager was slain by Zombie'
+[20:46:12] [User Authenticator #4/INFO]: UUID of player ZaosKeysalor is c9f947b0-af80-47c3-a303-5740993c2038
+[20:46:13] [Server thread/INFO]: ZaosKeysalor[/152.172.121.123:53918] logged in with entity id 13092 at (3345.699999988079, 111.0, -1342.5532552255695)
+[20:46:13] [Server thread/INFO]: ZaosKeysalor joined the game
+[20:46:31] [Server thread/INFO]: Villager cev['Villager'/7602, l='ServerLevel[world]', x=3577.04, y=61.41, z=-2312.90] died, message: 'Villager was slain by Zombie'
+[20:46:54] [Server thread/INFO]: MissMinuArt was doomed to fall by Ravager
+[20:47:51] [Server thread/INFO]: ZaosKeysalor lost connection: Disconnected
+[20:47:51] [Server thread/INFO]: ZaosKeysalor left the game
+[21:35:38] [Server thread/INFO]: MissMinuArt lost connection: Disconnected
+[21:35:38] [Server thread/INFO]: MissMinuArt left the game

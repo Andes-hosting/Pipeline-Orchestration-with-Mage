@@ -33,7 +33,7 @@ blocks:
   language: python
   name: utilization_api
   retry_config: null
-  status: failed
+  status: updated
   timeout: null
   type: data_loader
   upstream_blocks:
@@ -62,7 +62,7 @@ blocks:
     data_provider: postgres
     data_provider_profile: DataWarehouse
     dbt: {}
-    disable_query_preprocessing: false
+    disable_query_preprocessing: true
     export_write_policy: append
     limit: 1000
     upstream_block_configuration:

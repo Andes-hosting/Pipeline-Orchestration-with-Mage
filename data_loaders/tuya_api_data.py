@@ -1,16 +1,9 @@
 from mage_ai.data_preparation.shared.secrets import get_secret_value
 import tinytuya
 
-if 'data_loader' not in globals():
-    from mage_ai.data_preparation.decorators import data_loader
-if 'test' not in globals():
-    from mage_ai.data_preparation.decorators import test
-
 @data_loader
 def load_data_from_api(*args, **kwargs):
-    """
-    Template for loading data from API
-    """
+
     tuya_cloud = tinytuya.Cloud(
                     apiRegion = get_secret_value('tuya_api_endpoint'),
                     apiKey = get_secret_value('tuya_access_id'),
@@ -32,11 +25,3 @@ def load_data_from_api(*args, **kwargs):
             all_data_devices.append({'device_uid': device[1], 'name': device[0], 'status_device': status_device})
 
     return all_data_devices
-
-
-#@test
-#def test_output(output, *args) -> None:
-#    """
-#    Template code for testing the output of the block.
-#    """
-#    assert output is not None, 'The output is undefined'

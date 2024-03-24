@@ -1,0 +1,87 @@
+[06:01:40] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[06:01:41] [ServerMain/INFO]: Loaded 7 recipes
+[06:01:42] [ServerMain/INFO]: Loaded 1271 advancements
+[06:01:42] [Server thread/INFO]: Starting minecraft server version 1.20.4
+[06:01:42] [Server thread/INFO]: Loading properties
+[06:01:42] [Server thread/INFO]: Default game type: SURVIVAL
+[06:01:42] [Server thread/INFO]: Generating keypair
+[06:01:43] [Server thread/INFO]: Starting Minecraft server on 0.0.0.0:27000
+[06:01:43] [Server thread/INFO]: Using epoll channel type
+[06:01:43] [Server thread/INFO]: Preparing level "world"
+[06:01:44] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[06:01:47] [Worker-Main-13/INFO]: Preparing spawn area: 0%
+[06:01:47] [Worker-Main-12/INFO]: Preparing spawn area: 0%
+[06:01:47] [Worker-Main-13/INFO]: Preparing spawn area: 0%
+[06:01:47] [Worker-Main-14/INFO]: Preparing spawn area: 0%
+[06:01:47] [Worker-Main-13/INFO]: Preparing spawn area: 0%
+[06:01:47] [Worker-Main-13/INFO]: Preparing spawn area: 0%
+[06:01:47] [Worker-Main-20/INFO]: Preparing spawn area: 0%
+[06:01:47] [Worker-Main-18/INFO]: Preparing spawn area: 0%
+[06:01:48] [Worker-Main-9/INFO]: Preparing spawn area: 0%
+[06:01:48] [Worker-Main-16/INFO]: Preparing spawn area: 23%
+[06:01:49] [Worker-Main-1/INFO]: Preparing spawn area: 66%
+[06:01:49] [Server thread/INFO]: Time elapsed: 5498 ms
+[06:01:49] [Server thread/INFO]: Done (6.446s)! For help, type "help"
+[14:03:17] [User Authenticator #1/INFO]: UUID of player MissMinuArt is dca46a5d-5d60-487e-9bf7-e9d7eb1239dc
+[14:03:18] [Server thread/INFO]: MissMinuArt[/152.172.121.123:54179] logged in with entity id 94 at (3338.3090467308693, 112.0, -1372.2508807830588)
+[14:03:18] [Server thread/INFO]: MissMinuArt joined the game
+[14:05:53] [User Authenticator #2/INFO]: UUID of player ZaosKeysalor is c9f947b0-af80-47c3-a303-5740993c2038
+[14:05:53] [Server thread/INFO]: ZaosKeysalor[/152.172.121.123:51229] logged in with entity id 740 at (3341.801593952562, 112.0, -1348.6556411616427)
+[14:05:53] [Server thread/INFO]: ZaosKeysalor joined the game
+[14:14:27] [Server thread/INFO]: MissMinuArt lost connection: Disconnected
+[14:14:27] [Server thread/INFO]: MissMinuArt left the game
+[14:14:31] [User Authenticator #3/INFO]: UUID of player MissMinuArt is dca46a5d-5d60-487e-9bf7-e9d7eb1239dc
+[14:14:32] [Server thread/INFO]: MissMinuArt[/152.172.121.123:54321] logged in with entity id 2252 at (3374.1391710779367, 112.0, -1361.7828298557258)
+[14:14:32] [Server thread/INFO]: MissMinuArt joined the game
+[14:23:32] [Server thread/INFO]: MissMinuArt lost connection: Disconnected
+[14:23:32] [Server thread/INFO]: MissMinuArt left the game
+[14:23:34] [Server thread/INFO]: ZaosKeysalor lost connection: Disconnected
+[14:23:34] [Server thread/INFO]: ZaosKeysalor left the game
+[14:30:08] [User Authenticator #4/INFO]: UUID of player ZaosKeysalor is c9f947b0-af80-47c3-a303-5740993c2038
+[14:30:08] [Server thread/INFO]: ZaosKeysalor[/152.172.121.123:51424] logged in with entity id 4024 at (3343.3925681686796, 111.0, -1344.5306332397417)
+[14:30:08] [Server thread/INFO]: ZaosKeysalor joined the game
+[14:56:27] [User Authenticator #5/INFO]: UUID of player MissMinuArt is dca46a5d-5d60-487e-9bf7-e9d7eb1239dc
+[14:56:27] [Server thread/INFO]: MissMinuArt[/152.172.121.123:55213] logged in with entity id 8785 at (3335.759273380266, 112.0, -1371.056392918463)
+[14:56:27] [Server thread/INFO]: MissMinuArt joined the game
+[15:00:15] [Server thread/INFO]: <MissMinuArt> tienes carne de zoombie?
+[15:00:33] [Server thread/INFO]: <ZaosKeysalor> hay en la caja de monstruos abajo
+[15:01:00] [Server thread/INFO]: <ZaosKeysalor> no
+[15:01:03] [Server thread/INFO]: <ZaosKeysalor> ya no hay xd
+[15:04:12] [Server thread/INFO]: <ZaosKeysalor> ZaosKeysalor
+[15:11:04] [Server thread/INFO]: <MissMinuArt> están invadiendo
+[15:15:20] [Server thread/INFO]: MissMinuArt lost connection: Disconnected
+[15:15:20] [Server thread/INFO]: MissMinuArt left the game
+[15:16:01] [User Authenticator #6/INFO]: UUID of player MissMinuArt is dca46a5d-5d60-487e-9bf7-e9d7eb1239dc
+[15:16:01] [Server thread/INFO]: MissMinuArt[/152.172.121.123:55418] logged in with entity id 12036 at (3308.8652205942585, 77.0, -1542.7179790007413)
+[15:16:01] [Server thread/INFO]: MissMinuArt joined the game
+[15:22:24] [Server thread/INFO]: Villager cev['Villager'/14466, l='ServerLevel[world]', x=3547.37, y=64.00, z=-2283.52] died, message: 'Villager was slain by Ravager'
+[15:22:45] [Server thread/INFO]: Villager cev['Farmer'/14585, l='ServerLevel[world]', x=3515.95, y=69.94, z=-2295.49] died, message: 'Farmer was slain by Ravager'
+[15:27:14] [Server thread/INFO]: MissMinuArt lost connection: Disconnected
+[15:27:14] [Server thread/INFO]: MissMinuArt left the game
+[15:27:31] [User Authenticator #7/INFO]: UUID of player MissMinuArt is dca46a5d-5d60-487e-9bf7-e9d7eb1239dc
+[15:27:31] [Server thread/INFO]: MissMinuArt[/152.172.121.123:55686] logged in with entity id 16337 at (3544.9900652063598, 62.0, -2216.078211445953)
+[15:27:31] [Server thread/INFO]: MissMinuArt joined the game
+[15:28:32] [Server thread/INFO]: Villager cev['Villager'/16364, l='ServerLevel[world]', x=3550.30, y=49.21, z=-2293.04] died, message: 'Villager was slain by Zombie'
+[15:37:40] [Server thread/INFO]: MissMinuArt lost connection: Disconnected
+[15:37:40] [Server thread/INFO]: MissMinuArt left the game
+[15:38:56] [User Authenticator #8/INFO]: UUID of player MissMinuArt is dca46a5d-5d60-487e-9bf7-e9d7eb1239dc
+[15:38:56] [Server thread/INFO]: MissMinuArt[/152.172.121.123:55801] logged in with entity id 20728 at (3548.598646756554, 64.9375, -2314.2107518808616)
+[15:38:56] [Server thread/INFO]: MissMinuArt joined the game
+[15:48:41] [Server thread/INFO]: MissMinuArt has completed the challenge [Hero of the Village]
+[15:54:59] [Server thread/INFO]: ZaosKeysalor lost connection: Disconnected
+[15:54:59] [Server thread/INFO]: ZaosKeysalor left the game
+[15:55:03] [User Authenticator #9/INFO]: UUID of player ZaosKeysalor is c9f947b0-af80-47c3-a303-5740993c2038
+[15:55:03] [Server thread/INFO]: ZaosKeysalor[/152.172.121.123:52043] logged in with entity id 25323 at (3550.2627990136266, 63.0, -2286.684504228549)
+[15:55:03] [Server thread/INFO]: ZaosKeysalor joined the game
+[16:06:53] [Server thread/INFO]: MissMinuArt lost connection: Disconnected
+[16:06:53] [Server thread/INFO]: MissMinuArt left the game
+[16:21:17] [Server thread/INFO]: ZaosKeysalor lost connection: Disconnected
+[16:21:17] [Server thread/INFO]: ZaosKeysalor left the game
+[16:27:35] [User Authenticator #10/INFO]: UUID of player ZaosKeysalor is c9f947b0-af80-47c3-a303-5740993c2038
+[16:27:35] [Server thread/INFO]: ZaosKeysalor[/152.172.121.123:52362] logged in with entity id 34213 at (3370.5, 116.5625, -1357.5)
+[16:27:35] [Server thread/INFO]: ZaosKeysalor joined the game
+[16:28:21] [Server thread/INFO]: [Not Secure] [Server] wena los cabros xD
+[16:28:28] [Server thread/INFO]: <ZaosKeysalor> wena xd
+[16:29:02] [Server thread/INFO]: Named entity bzf['Potrillo'/34259, l='ServerLevel[world]', x=3364.49, y=112.00, z=-1346.49] died: Potrillo died from dehydration
+[17:02:25] [Server thread/INFO]: ZaosKeysalor lost connection: Disconnected
+[17:02:25] [Server thread/INFO]: ZaosKeysalor left the game

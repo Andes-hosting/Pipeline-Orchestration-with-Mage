@@ -1,0 +1,47 @@
+[00:06:01] [Server thread/INFO]: Irasoma has made the advancement [Enchanter]
+[00:10:52] [Server thread/INFO]: Irasoma lost connection: Disconnected
+[00:10:52] [Server thread/INFO]: Irasoma left the game
+[00:11:47] [Server thread/INFO]: ZaosKeysalor has made the advancement [What a Deal!]
+[00:13:40] [User Authenticator #49/INFO]: UUID of player LeeroyPerkins is 2bdc2115-56e5-455a-ae7a-ec0c69f7e3cb
+[00:13:40] [Server thread/INFO]: LeeroyPerkins[/186.78.110.161:60341] logged in with entity id 193209 at (3465.0899254569717, 113.0, -1387.1792419670376)
+[00:13:40] [Server thread/INFO]: LeeroyPerkins joined the game
+[00:23:45] [Server thread/INFO]: LeeroyPerkins lost connection: Disconnected
+[00:23:45] [Server thread/INFO]: LeeroyPerkins left the game
+[00:23:52] [User Authenticator #50/INFO]: UUID of player LeeroyPerkins is 2bdc2115-56e5-455a-ae7a-ec0c69f7e3cb
+[00:23:52] [Server thread/INFO]: LeeroyPerkins[/186.78.110.161:60390] logged in with entity id 195401 at (3447.2668437872285, 128.0, -1390.2289150628899)
+[00:23:52] [Server thread/INFO]: LeeroyPerkins joined the game
+[00:35:00] [Server thread/INFO]: ZaosKeysalor lost connection: Disconnected
+[00:35:00] [Server thread/INFO]: ZaosKeysalor left the game
+[00:35:09] [User Authenticator #51/INFO]: UUID of player ZaosKeysalor is c9f947b0-af80-47c3-a303-5740993c2038
+[00:35:09] [Server thread/INFO]: ZaosKeysalor[/152.172.121.123:61127] logged in with entity id 199953 at (2498.233381915492, 112.0, -1053.47001886625)
+[00:35:09] [Server thread/INFO]: ZaosKeysalor joined the game
+[00:58:47] [Server thread/INFO]: ZaosKeysalor lost connection: Disconnected
+[00:58:47] [Server thread/INFO]: ZaosKeysalor left the game
+[00:58:52] [User Authenticator #52/INFO]: UUID of player ZaosKeysalor is c9f947b0-af80-47c3-a303-5740993c2038
+[00:58:53] [Server thread/INFO]: ZaosKeysalor[/152.172.121.123:61902] logged in with entity id 208802 at (3907.4414330996206, 68.0, -1056.1820206090808)
+[00:58:53] [Server thread/INFO]: ZaosKeysalor joined the game
+[01:17:10] [Server thread/INFO]: LeeroyPerkins lost connection: Disconnected
+[01:17:10] [Server thread/INFO]: LeeroyPerkins left the game
+[01:29:08] [Server thread/INFO]: ZaosKeysalor was slain by Spider
+[02:36:47] [Server thread/INFO]: ZaosKeysalor lost connection: Disconnected
+[02:36:47] [Server thread/INFO]: ZaosKeysalor left the game
+[09:17:44] [User Authenticator #53/INFO]: UUID of player MissMinuArt is dca46a5d-5d60-487e-9bf7-e9d7eb1239dc
+[09:17:44] [Server thread/INFO]: MissMinuArt[/152.172.121.123:63227] logged in with entity id 229212 at (3344.411418363655, 112.0, -1384.9683153379494)
+[09:17:44] [Server thread/INFO]: MissMinuArt joined the game
+[09:18:05] [Server thread/INFO]: [Not Secure] [Server] holaaa, I'm sorry pero justo just lo voy a apagar xD
+[09:18:18] [Server thread/INFO]: [Not Secure] [Server] asdfasdfsafd te aviso cuando el server volvera online
+[09:18:28] [Server thread/INFO]: <MissMinuArt> nooooooo
+[09:18:32] [Server thread/INFO]: [Not Secure] [Server] upsis
+[09:18:34] [Server thread/INFO]: Stopping the server
+[09:18:34] [Server thread/INFO]: Stopping server
+[09:18:34] [Server thread/INFO]: Saving players
+[09:18:34] [Server thread/INFO]: MissMinuArt lost connection: Server closed
+[09:18:34] [Server thread/INFO]: MissMinuArt left the game
+[09:18:34] [Server thread/INFO]: Saving worlds
+[09:18:35] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[09:18:42] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[09:18:42] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[09:18:42] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[09:18:42] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[09:18:42] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[09:18:42] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved

@@ -1,0 +1,31 @@
+[06:01:38] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[06:01:39] [ServerMain/INFO]: Loaded 7 recipes
+[06:01:40] [ServerMain/INFO]: Loaded 1271 advancements
+[06:01:40] [Server thread/INFO]: Starting minecraft server version 1.20.4
+[06:01:40] [Server thread/INFO]: Loading properties
+[06:01:40] [Server thread/INFO]: Default game type: SURVIVAL
+[06:01:40] [Server thread/INFO]: Generating keypair
+[06:01:41] [Server thread/INFO]: Starting Minecraft server on 0.0.0.0:27000
+[06:01:41] [Server thread/INFO]: Using epoll channel type
+[06:01:41] [Server thread/INFO]: Preparing level "world"
+[06:01:42] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[06:01:45] [Worker-Main-9/INFO]: Preparing spawn area: 0%
+[06:01:45] [Worker-Main-17/INFO]: Preparing spawn area: 0%
+[06:01:45] [Worker-Main-22/INFO]: Preparing spawn area: 0%
+[06:01:45] [Worker-Main-17/INFO]: Preparing spawn area: 0%
+[06:01:45] [Worker-Main-8/INFO]: Preparing spawn area: 0%
+[06:01:45] [Worker-Main-9/INFO]: Preparing spawn area: 0%
+[06:01:45] [Worker-Main-12/INFO]: Preparing spawn area: 0%
+[06:01:45] [Worker-Main-17/INFO]: Preparing spawn area: 0%
+[06:01:46] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[06:01:46] [Worker-Main-20/INFO]: Preparing spawn area: 0%
+[06:01:47] [Worker-Main-20/INFO]: Preparing spawn area: 22%
+[06:01:47] [Worker-Main-10/INFO]: Preparing spawn area: 59%
+[06:01:48] [Server thread/INFO]: Time elapsed: 5945 ms
+[06:01:48] [Server thread/INFO]: Done (6.820s)! For help, type "help"
+[21:49:55] [User Authenticator #1/INFO]: UUID of player ZaosKeysalor is c9f947b0-af80-47c3-a303-5740993c2038
+[21:49:55] [Server thread/INFO]: ZaosKeysalor[/152.172.122.22:60863] logged in with entity id 92 at (3610.2142226537558, 63.0, -1378.6522575229933)
+[21:49:55] [Server thread/INFO]: ZaosKeysalor joined the game
+[21:52:15] [Server thread/INFO]: ZaosKeysalor was shot by Piglin
+[22:01:14] [Server thread/INFO]: ZaosKeysalor lost connection: Disconnected
+[22:01:14] [Server thread/INFO]: ZaosKeysalor left the game

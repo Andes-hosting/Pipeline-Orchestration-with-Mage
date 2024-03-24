@@ -1,0 +1,13 @@
+[06:00:12] [Server thread/INFO]: [Not Secure] [Server] El servidor se reiniciará en 1 minuto por motivos de mantención
+[06:01:07] [Server thread/INFO]: [Not Secure] [Server] El servidor se reiniciará en 10 segundos por motivos de mantención
+[06:01:23] [Server thread/INFO]: Stopping the server
+[06:01:23] [Server thread/INFO]: Stopping server
+[06:01:23] [Server thread/INFO]: Saving players
+[06:01:23] [Server thread/INFO]: Saving worlds
+[06:01:24] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[06:01:30] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[06:01:30] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[06:01:30] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[06:01:30] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[06:01:30] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[06:01:30] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved

@@ -2,4 +2,5 @@ tinytuya
 pandas
 py-dactyl
 PyShlink
+user_agents
 uptime-kuma-api

@@ -1,0 +1,25 @@
+[06:01:40] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[06:01:42] [ServerMain/INFO]: Loaded 7 recipes
+[06:01:42] [ServerMain/INFO]: Loaded 1271 advancements
+[06:01:43] [Server thread/INFO]: Starting minecraft server version 1.20.4
+[06:01:43] [Server thread/INFO]: Loading properties
+[06:01:43] [Server thread/INFO]: Default game type: SURVIVAL
+[06:01:43] [Server thread/INFO]: Generating keypair
+[06:01:43] [Server thread/INFO]: Starting Minecraft server on 0.0.0.0:27000
+[06:01:43] [Server thread/INFO]: Using epoll channel type
+[06:01:43] [Server thread/INFO]: Preparing level "world"
+[06:01:44] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[06:01:47] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[06:01:47] [Worker-Main-10/INFO]: Preparing spawn area: 0%
+[06:01:47] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[06:01:47] [Worker-Main-21/INFO]: Preparing spawn area: 0%
+[06:01:47] [Worker-Main-16/INFO]: Preparing spawn area: 0%
+[06:01:47] [Worker-Main-9/INFO]: Preparing spawn area: 0%
+[06:01:47] [Worker-Main-16/INFO]: Preparing spawn area: 0%
+[06:01:48] [Worker-Main-23/INFO]: Preparing spawn area: 0%
+[06:01:48] [Worker-Main-7/INFO]: Preparing spawn area: 0%
+[06:01:49] [Worker-Main-15/INFO]: Preparing spawn area: 10%
+[06:01:49] [Worker-Main-5/INFO]: Preparing spawn area: 51%
+[06:01:50] [Worker-Main-3/INFO]: Preparing spawn area: 89%
+[06:01:50] [Server thread/INFO]: Time elapsed: 5651 ms
+[06:01:50] [Server thread/INFO]: Done (6.534s)! For help, type "help"

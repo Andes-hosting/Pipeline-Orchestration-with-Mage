@@ -1,0 +1,38 @@
+[06:01:40] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[06:01:42] [ServerMain/INFO]: Loaded 7 recipes
+[06:01:42] [ServerMain/INFO]: Loaded 1271 advancements
+[06:01:43] [Server thread/INFO]: Starting minecraft server version 1.20.4
+[06:01:43] [Server thread/INFO]: Loading properties
+[06:01:43] [Server thread/INFO]: Default game type: SURVIVAL
+[06:01:43] [Server thread/INFO]: Generating keypair
+[06:01:43] [Server thread/INFO]: Starting Minecraft server on 0.0.0.0:27000
+[06:01:43] [Server thread/INFO]: Using epoll channel type
+[06:01:43] [Server thread/INFO]: Preparing level "world"
+[06:01:44] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[06:01:47] [Worker-Main-20/INFO]: Preparing spawn area: 0%
+[06:01:47] [Worker-Main-10/INFO]: Preparing spawn area: 0%
+[06:01:47] [Worker-Main-13/INFO]: Preparing spawn area: 0%
+[06:01:47] [Worker-Main-22/INFO]: Preparing spawn area: 0%
+[06:01:47] [Worker-Main-20/INFO]: Preparing spawn area: 0%
+[06:01:47] [Worker-Main-11/INFO]: Preparing spawn area: 0%
+[06:01:47] [Worker-Main-13/INFO]: Preparing spawn area: 0%
+[06:01:48] [Worker-Main-19/INFO]: Preparing spawn area: 0%
+[06:01:48] [Worker-Main-9/INFO]: Preparing spawn area: 0%
+[06:01:49] [Worker-Main-22/INFO]: Preparing spawn area: 49%
+[06:01:49] [Worker-Main-18/INFO]: Preparing spawn area: 91%
+[06:01:49] [Server thread/INFO]: Time elapsed: 5115 ms
+[06:01:49] [Server thread/INFO]: Done (6.031s)! For help, type "help"
+[21:05:37] [User Authenticator #1/INFO]: UUID of player LeeroyPerkins is 2bdc2115-56e5-455a-ae7a-ec0c69f7e3cb
+[21:05:38] [Server thread/INFO]: LeeroyPerkins[/186.78.119.171:60977] logged in with entity id 93 at (3455.5496367382116, 113.0, -1394.471057159458)
+[21:05:38] [Server thread/INFO]: LeeroyPerkins joined the game
+[21:22:34] [Server thread/INFO]: LeeroyPerkins lost connection: Disconnected
+[21:22:34] [Server thread/INFO]: LeeroyPerkins left the game
+[21:23:00] [User Authenticator #2/INFO]: UUID of player LeeroyPerkins is 2bdc2115-56e5-455a-ae7a-ec0c69f7e3cb
+[21:23:00] [Server thread/INFO]: LeeroyPerkins[/186.78.119.171:61012] logged in with entity id 2716 at (3465.495605281438, 112.0, -1407.122557512498)
+[21:23:00] [Server thread/INFO]: LeeroyPerkins joined the game
+[21:34:58] [Server thread/INFO]: LeeroyPerkins lost connection: Disconnected
+[21:34:58] [Server thread/INFO]: LeeroyPerkins left the game
+[23:50:35] [User Authenticator #3/INFO]: UUID of player LeeroyPerkins is 2bdc2115-56e5-455a-ae7a-ec0c69f7e3cb
+[23:50:35] [Server thread/INFO]: LeeroyPerkins[/186.78.119.171:62193] logged in with entity id 4569 at (3452.104531155858, 119.0, -1391.6624412113295)
+[23:50:35] [Server thread/INFO]: LeeroyPerkins joined the game
+[23:54:18] [Server thread/INFO]: LeeroyPerkins has made the advancement [Isn't It Iron Pick]

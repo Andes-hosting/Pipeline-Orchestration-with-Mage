@@ -1,0 +1,96 @@
+[06:01:39] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[06:01:41] [ServerMain/INFO]: Loaded 7 recipes
+[06:01:41] [ServerMain/INFO]: Loaded 1271 advancements
+[06:01:42] [Server thread/INFO]: Starting minecraft server version 1.20.4
+[06:01:42] [Server thread/INFO]: Loading properties
+[06:01:42] [Server thread/INFO]: Default game type: SURVIVAL
+[06:01:42] [Server thread/INFO]: Generating keypair
+[06:01:42] [Server thread/INFO]: Starting Minecraft server on 0.0.0.0:27000
+[06:01:42] [Server thread/INFO]: Using epoll channel type
+[06:01:42] [Server thread/INFO]: Preparing level "world"
+[06:01:43] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[06:01:46] [Worker-Main-19/INFO]: Preparing spawn area: 0%
+[06:01:46] [Worker-Main-23/INFO]: Preparing spawn area: 0%
+[06:01:46] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[06:01:46] [Worker-Main-21/INFO]: Preparing spawn area: 0%
+[06:01:46] [Worker-Main-23/INFO]: Preparing spawn area: 0%
+[06:01:46] [Worker-Main-23/INFO]: Preparing spawn area: 0%
+[06:01:46] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[06:01:47] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[06:01:47] [Worker-Main-8/INFO]: Preparing spawn area: 1%
+[06:01:48] [Worker-Main-19/INFO]: Preparing spawn area: 32%
+[06:01:48] [Worker-Main-23/INFO]: Preparing spawn area: 69%
+[06:01:49] [Server thread/INFO]: Time elapsed: 5393 ms
+[06:01:49] [Server thread/INFO]: Done (6.293s)! For help, type "help"
+[12:17:51] [User Authenticator #1/INFO]: UUID of player ZaosKeysalor is c9f947b0-af80-47c3-a303-5740993c2038
+[12:17:52] [Server thread/INFO]: ZaosKeysalor[/152.172.121.123:62132] logged in with entity id 91 at (3358.68573352503, 117.0, -1354.9102602545886)
+[12:17:52] [Server thread/INFO]: ZaosKeysalor joined the game
+[12:49:18] [User Authenticator #2/INFO]: UUID of player MissMinuArt is dca46a5d-5d60-487e-9bf7-e9d7eb1239dc
+[12:49:18] [Server thread/INFO]: MissMinuArt[/152.172.121.123:50686] logged in with entity id 8213 at (3340.6471483262353, 111.0, -1330.439826761296)
+[12:49:18] [Server thread/INFO]: MissMinuArt joined the game
+[14:20:34] [Server thread/INFO]: ZaosKeysalor has made the advancement [Sneak 100]
+[14:25:02] [Server thread/INFO]: ZaosKeysalor was obliterated by a sonically-charged shriek
+[14:28:29] [Server thread/INFO]: MissMinuArt was slain by Warden
+[14:28:33] [Server thread/WARN]: MissMinuArt moved too quickly! 1018.1999999880791,139.5625,-442.51217131390376
+[14:30:06] [Server thread/INFO]: MissMinuArt lost connection: Disconnected
+[14:30:06] [Server thread/INFO]: MissMinuArt left the game
+[14:34:29] [User Authenticator #3/INFO]: UUID of player Irasoma is a2617195-1554-4a1e-a999-c3875761266e
+[14:34:29] [Server thread/INFO]: Irasoma[/192.168.1.1:49513] logged in with entity id 30484 at (3349.415095704679, 120.0, -1312.773265459671)
+[14:34:29] [Server thread/INFO]: Irasoma joined the game
+[14:34:39] [Server thread/INFO]: <Irasoma> wat
+[14:34:49] [Server thread/INFO]: <ZaosKeysalor> ?
+[14:35:04] [Server thread/INFO]: <Irasoma> kesesto?
+[14:35:15] [Server thread/INFO]: <ZaosKeysalor> que cosa?
+[14:37:36] [User Authenticator #4/INFO]: UUID of player MissMinuArt is dca46a5d-5d60-487e-9bf7-e9d7eb1239dc
+[14:37:36] [Server thread/INFO]: MissMinuArt[/152.172.121.123:52749] logged in with entity id 31334 at (3371.054935527847, 113.0, -1359.3254872662558)
+[14:37:36] [Server thread/INFO]: MissMinuArt joined the game
+[14:49:28] [Server thread/INFO]: MissMinuArt lost connection: Disconnected
+[14:49:28] [Server thread/INFO]: MissMinuArt left the game
+[14:58:51] [Server thread/INFO]: [Irasoma: Successfully filled 31200 block(s)]
+[14:58:51] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2785ms or 55 ticks behind
+[14:58:59] [Server thread/INFO]: [Irasoma: Successfully filled 32 block(s)]
+[14:59:51] [Server thread/INFO]: [Irasoma: Successfully filled 20778 block(s)]
+[15:00:20] [Server thread/INFO]: [Irasoma: Successfully filled 20800 block(s)]
+[15:00:42] [Server thread/INFO]: [Irasoma: Successfully filled 20800 block(s)]
+[15:00:51] [Server thread/INFO]: [Irasoma: Successfully filled 19477 block(s)]
+[15:00:55] [Server thread/INFO]: [Irasoma: Successfully filled 94 block(s)]
+[15:01:03] [Server thread/INFO]: [Irasoma: Successfully filled 20719 block(s)]
+[15:01:10] [Server thread/INFO]: [Irasoma: Successfully filled 40 block(s)]
+[15:03:23] [Server thread/INFO]: [Irasoma: Successfully filled 31200 block(s)]
+[15:04:12] [Server thread/INFO]: [Irasoma: Successfully filled 31200 block(s)]
+[15:04:31] [Server thread/INFO]: [Irasoma: Successfully filled 31200 block(s)]
+[15:04:50] [Server thread/INFO]: [Irasoma: Successfully filled 31200 block(s)]
+[15:05:18] [Server thread/INFO]: [Irasoma: Successfully filled 31200 block(s)]
+[15:05:22] [Server thread/INFO]: [Irasoma: Successfully filled 8 block(s)]
+[15:05:25] [Server thread/INFO]: ZaosKeysalor lost connection: Disconnected
+[15:05:25] [Server thread/INFO]: ZaosKeysalor left the game
+[15:05:32] [Server thread/INFO]: [Irasoma: Successfully filled 31200 block(s)]
+[15:05:38] [Server thread/INFO]: [Irasoma: Successfully filled 4 block(s)]
+[15:05:47] [Server thread/INFO]: [Irasoma: Successfully filled 31200 block(s)]
+[15:06:03] [Server thread/INFO]: [Irasoma: Successfully filled 31200 block(s)]
+[15:06:08] [Server thread/INFO]: [Irasoma: Successfully filled 117 block(s)]
+[15:07:06] [Server thread/INFO]: [Irasoma: Successfully filled 31200 block(s)]
+[15:07:33] [Server thread/INFO]: [Irasoma: Successfully filled 31200 block(s)]
+[15:07:44] [Server thread/INFO]: [Irasoma: Successfully filled 30939 block(s)]
+[15:07:57] [Server thread/INFO]: [Irasoma: Successfully filled 30340 block(s)]
+[15:08:11] [Server thread/INFO]: [Irasoma: Successfully filled 30995 block(s)]
+[15:08:15] [Server thread/INFO]: [Irasoma: Successfully filled 69 block(s)]
+[15:12:40] [Server thread/INFO]: [Irasoma: Successfully filled 24960 block(s)]
+[15:13:06] [Server thread/INFO]: [Irasoma: Successfully filled 24948 block(s)]
+[15:13:23] [Server thread/INFO]: [Irasoma: Successfully filled 12 block(s)]
+[15:13:39] [Server thread/INFO]: Irasoma has made the advancement [Suit Up]
+[15:14:42] [Server thread/INFO]: [Irasoma: Successfully filled 18 block(s)]
+[15:15:49] [Server thread/INFO]: [Irasoma: Successfully filled 480 block(s)]
+[15:22:22] [Server thread/INFO]: [Irasoma: Successfully filled 2610 block(s)]
+[15:24:15] [Server thread/INFO]: [Irasoma: Successfully filled 520 block(s)]
+[15:25:03] [Server thread/INFO]: [Irasoma: Successfully filled 468 block(s)]
+[15:26:07] [Server thread/INFO]: [Irasoma: Successfully filled 5200 block(s)]
+[15:29:37] [Server thread/INFO]: [Irasoma: Successfully filled 28298 block(s)]
+[15:29:48] [Server thread/INFO]: [Irasoma: Successfully filled 5200 block(s)]
+[15:33:23] [Server thread/INFO]: Irasoma lost connection: Disconnected
+[15:33:23] [Server thread/INFO]: Irasoma left the game
+[17:07:48] [User Authenticator #5/INFO]: UUID of player LeeroyPerkins is 2bdc2115-56e5-455a-ae7a-ec0c69f7e3cb
+[17:07:48] [Server thread/INFO]: LeeroyPerkins[/190.45.20.186:55350] logged in with entity id 53830 at (3464.3060524343678, 113.0, -1396.789429677945)
+[17:07:48] [Server thread/INFO]: LeeroyPerkins joined the game
+[18:02:19] [Server thread/INFO]: LeeroyPerkins lost connection: Disconnected
+[18:02:19] [Server thread/INFO]: LeeroyPerkins left the game

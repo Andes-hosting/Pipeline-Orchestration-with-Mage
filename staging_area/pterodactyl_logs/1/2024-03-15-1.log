@@ -1,0 +1,149 @@
+[20:37:21] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[20:37:23] [ServerMain/INFO]: Loaded 7 recipes
+[20:37:23] [ServerMain/INFO]: Loaded 1271 advancements
+[20:37:24] [Server thread/INFO]: Starting minecraft server version 1.20.4
+[20:37:24] [Server thread/INFO]: Loading properties
+[20:37:24] [Server thread/INFO]: Default game type: SURVIVAL
+[20:37:24] [Server thread/INFO]: Generating keypair
+[20:37:24] [Server thread/INFO]: Starting Minecraft server on 0.0.0.0:27004
+[20:37:24] [Server thread/INFO]: Using epoll channel type
+[20:37:24] [Server thread/INFO]: Preparing level "world"
+[20:37:25] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[20:37:28] [Worker-Main-23/INFO]: Preparing spawn area: 0%
+[20:37:28] [Worker-Main-16/INFO]: Preparing spawn area: 0%
+[20:37:28] [Worker-Main-23/INFO]: Preparing spawn area: 0%
+[20:37:28] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[20:37:28] [Worker-Main-21/INFO]: Preparing spawn area: 0%
+[20:37:28] [Worker-Main-21/INFO]: Preparing spawn area: 0%
+[20:37:28] [Worker-Main-21/INFO]: Preparing spawn area: 0%
+[20:37:28] [Worker-Main-17/INFO]: Preparing spawn area: 0%
+[20:37:29] [Worker-Main-20/INFO]: Preparing spawn area: 22%
+[20:37:29] [Worker-Main-7/INFO]: Preparing spawn area: 61%
+[20:37:30] [Worker-Main-20/INFO]: Preparing spawn area: 99%
+[20:37:30] [Server thread/INFO]: Time elapsed: 5008 ms
+[20:37:30] [Server thread/INFO]: Done (5.905s)! For help, type "help"
+[20:37:42] [User Authenticator #1/INFO]: UUID of player Irasoma is a2617195-1554-4a1e-a999-c3875761266e
+[20:37:42] [Server thread/INFO]: Irasoma[/192.168.1.1:49595] logged in with entity id 103 at (10.5, 82.0, 1.5)
+[20:37:43] [Server thread/INFO]: Irasoma joined the game
+[20:37:51] [User Authenticator #2/INFO]: UUID of player Sleeping_and is 5d9be168-fd25-4c47-b6c0-84c85f10f386
+[20:37:52] [Server thread/INFO]: Sleeping_and[/200.85.212.55:51345] logged in with entity id 237 at (-6.5, 86.0, -5.5)
+[20:37:52] [Server thread/INFO]: Sleeping_and joined the game
+[20:41:12] [User Authenticator #3/INFO]: UUID of player ZaosKeysalor is c9f947b0-af80-47c3-a303-5740993c2038
+[20:41:12] [Server thread/INFO]: ZaosKeysalor[/152.172.247.197:60567] logged in with entity id 1020 at (1.5, 100.0, 2.5)
+[20:41:12] [Server thread/INFO]: ZaosKeysalor joined the game
+[20:41:37] [Server thread/INFO]: Sleeping_and has made the advancement [Stone Age]
+[20:44:39] [Server thread/INFO]: Sleeping_and has made the advancement [Getting an Upgrade]
+[20:45:46] [Server thread/INFO]: Irasoma has made the advancement [Getting an Upgrade]
+[20:45:52] [Server thread/INFO]: Irasoma has made the advancement [Stone Age]
+[20:48:29] [Server thread/INFO]: ZaosKeysalor has made the advancement [Monster Hunter]
+[20:51:31] [Server thread/INFO]: ZaosKeysalor has made the advancement [Stone Age]
+[21:02:15] [Server thread/INFO]: Sleeping_and has made the advancement [Acquire Hardware]
+[21:02:23] [Server thread/INFO]: Sleeping_and has made the advancement [Isn't It Iron Pick]
+[21:03:05] [Server thread/INFO]: Sleeping_and has made the advancement [Diamonds!]
+[21:08:03] [Server thread/INFO]: ZaosKeysalor lost connection: Disconnected
+[21:08:03] [Server thread/INFO]: ZaosKeysalor left the game
+[21:14:33] [User Authenticator #4/INFO]: UUID of player ZaosKeysalor is c9f947b0-af80-47c3-a303-5740993c2038
+[21:14:33] [Server thread/INFO]: ZaosKeysalor[/152.172.247.197:61074] logged in with entity id 8740 at (49.30000001192093, 3.0, 31.483280923967282)
+[21:14:33] [Server thread/INFO]: ZaosKeysalor joined the game
+[21:19:36] [Server thread/INFO]: Irasoma has made the advancement [Acquire Hardware]
+[21:19:42] [Server thread/INFO]: Irasoma has made the advancement [Isn't It Iron Pick]
+[21:28:02] [Server thread/INFO]: Irasoma has made the advancement [Sweet Dreams]
+[21:28:13] [Server thread/INFO]: Sleeping_and has made the advancement [Sweet Dreams]
+[21:28:37] [User Authenticator #5/INFO]: UUID of player MissMinuArt is dca46a5d-5d60-487e-9bf7-e9d7eb1239dc
+[21:28:37] [Server thread/INFO]: MissMinuArt[/152.172.247.197:52650] logged in with entity id 12757 at (-1.5, 72.0, 9.5)
+[21:28:37] [Server thread/INFO]: MissMinuArt joined the game
+[21:28:44] [Server thread/INFO]: MissMinuArt lost connection: Disconnected
+[21:28:44] [Server thread/INFO]: MissMinuArt left the game
+[21:29:19] [Server thread/INFO]: ZaosKeysalor has made the advancement [Sweet Dreams]
+[21:29:37] [User Authenticator #6/INFO]: UUID of player MissMinuArt is dca46a5d-5d60-487e-9bf7-e9d7eb1239dc
+[21:29:37] [Server thread/INFO]: MissMinuArt[/152.172.247.197:52677] logged in with entity id 12994 at (-1.5, 72.0, 9.5)
+[21:29:37] [Server thread/INFO]: MissMinuArt joined the game
+[21:39:56] [Server thread/INFO]: MissMinuArt has made the advancement [Sweet Dreams]
+[21:42:58] [Server thread/INFO]: ZaosKeysalor lost connection: Disconnected
+[21:42:58] [Server thread/INFO]: ZaosKeysalor left the game
+[21:43:00] [User Authenticator #7/INFO]: UUID of player ZaosKeysalor is c9f947b0-af80-47c3-a303-5740993c2038
+[21:43:00] [Server thread/INFO]: ZaosKeysalor[/152.172.247.197:61332] logged in with entity id 16775 at (340.6367252065398, 68.5625, -130.69999998807907)
+[21:43:00] [Server thread/INFO]: ZaosKeysalor joined the game
+[21:50:06] [Server thread/INFO]: Irasoma has made the advancement [A Seedy Place]
+[21:51:04] [Server thread/INFO]: ZaosKeysalor has made the advancement [Getting an Upgrade]
+[21:51:22] [Server thread/INFO]: Irasoma lost connection: Disconnected
+[21:51:22] [Server thread/INFO]: Irasoma left the game
+[21:53:16] [Server thread/INFO]: Sleeping_and has made the advancement [Monster Hunter]
+[21:56:12] [Server thread/INFO]: ZaosKeysalor has made the advancement [Fishy Business]
+[21:57:46] [Server thread/INFO]: MissMinuArt has made the advancement [Monster Hunter]
+[22:05:10] [Server thread/INFO]: Sleeping_and has made the advancement [Fishy Business]
+[22:08:43] [User Authenticator #8/INFO]: UUID of player Irasoma is a2617195-1554-4a1e-a999-c3875761266e
+[22:08:43] [Server thread/INFO]: Irasoma[/192.168.1.1:50845] logged in with entity id 24551 at (626.5, 69.0, 229.5)
+[22:08:43] [Server thread/INFO]: Irasoma joined the game
+[22:11:09] [Server thread/INFO]: Irasoma lost connection: Disconnected
+[22:11:09] [Server thread/INFO]: Irasoma left the game
+[22:11:15] [Server thread/INFO]: ZaosKeysalor lost connection: Disconnected
+[22:11:15] [Server thread/INFO]: ZaosKeysalor left the game
+[22:13:08] [User Authenticator #9/INFO]: UUID of player ZaosKeysalor is c9f947b0-af80-47c3-a303-5740993c2038
+[22:13:09] [Server thread/INFO]: ZaosKeysalor[/152.172.247.197:61479] logged in with entity id 25798 at (310.0508238913304, 71.0, -104.16732672409718)
+[22:13:09] [Server thread/INFO]: ZaosKeysalor joined the game
+[22:18:29] [Server thread/INFO]: MissMinuArt has made the advancement [Stone Age]
+[22:23:44] [Server thread/INFO]: MissMinuArt has made the advancement [Getting an Upgrade]
+[22:25:48] [Server thread/INFO]: MissMinuArt drowned
+[22:38:04] [Server thread/INFO]: Sleeping_and has made the advancement [Suit Up]
+[22:42:30] [User Authenticator #10/INFO]: UUID of player Irasoma is a2617195-1554-4a1e-a999-c3875761266e
+[22:42:30] [Server thread/INFO]: Irasoma[/192.168.1.1:51314] logged in with entity id 37655 at (628.5, 69.0, 213.5)
+[22:42:30] [Server thread/INFO]: Irasoma joined the game
+[22:46:33] [Server thread/INFO]: Irasoma has made the advancement [Ice Bucket Challenge]
+[22:47:37] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 24492ms or 489 ticks behind
+[22:47:37] [Server thread/WARN]: Irasoma moved too quickly! 3.524181311266375,0.0,-9.470248030224461
+[22:47:37] [Server thread/WARN]: MissMinuArt moved too quickly! 1.9814296024809437,9.885492409130777,-0.05509216131952144
+[22:55:21] [Server thread/INFO]: ZaosKeysalor lost connection: Disconnected
+[22:55:21] [Server thread/INFO]: ZaosKeysalor left the game
+[22:55:22] [Server thread/INFO]: Sleeping_and lost connection: Disconnected
+[22:55:22] [Server thread/INFO]: Sleeping_and left the game
+[22:55:23] [Server thread/INFO]: MissMinuArt lost connection: Disconnected
+[22:55:23] [Server thread/INFO]: MissMinuArt left the game
+[22:55:28] [User Authenticator #11/INFO]: UUID of player ZaosKeysalor is c9f947b0-af80-47c3-a303-5740993c2038
+[22:55:28] [Server thread/INFO]: ZaosKeysalor[/152.172.247.197:61691] logged in with entity id 53604 at (603.746079148404, 110.0, -751.412603901507)
+[22:55:28] [Server thread/INFO]: ZaosKeysalor joined the game
+[22:55:28] [User Authenticator #12/INFO]: UUID of player Sleeping_and is 5d9be168-fd25-4c47-b6c0-84c85f10f386
+[22:55:29] [Server thread/INFO]: Sleeping_and[/200.85.212.55:51817] logged in with entity id 53614 at (875.4315950461846, 67.0, -1764.300000011921)
+[22:55:29] [Server thread/INFO]: Sleeping_and joined the game
+[22:55:30] [User Authenticator #13/INFO]: UUID of player MissMinuArt is dca46a5d-5d60-487e-9bf7-e9d7eb1239dc
+[22:55:30] [Server thread/INFO]: MissMinuArt[/152.172.247.197:54080] logged in with entity id 53639 at (603.0314917788746, 110.0, -752.6636421308793)
+[22:55:30] [Server thread/INFO]: MissMinuArt joined the game
+[22:57:37] [Server thread/INFO]: Made Irasoma a server operator
+[22:58:45] [Server thread/INFO]: MissMinuArt has made the advancement [Best Friends Forever]
+[22:59:30] [Server thread/INFO]: [Irasoma: Gamerule keepInventory is now set to: true]
+[23:00:12] [Server thread/INFO]: ZaosKeysalor has made the advancement [Best Friends Forever]
+[23:00:48] [Server thread/INFO]: [Irasoma: Teleported Irasoma to Sleeping_and]
+[23:09:19] [Server thread/INFO]: [Irasoma: Teleported Irasoma to Sleeping_and]
+[23:09:19] [Server thread/WARN]: Irasoma moved too quickly! 196.25961181462753,-6.889235711097726,271.09962102185386
+[23:09:19] [Server thread/WARN]: Irasoma moved too quickly! 196.25961181462753,-6.889235711097726,271.09962102185386
+[23:09:19] [Server thread/WARN]: Irasoma moved too quickly! 196.25961181462753,-6.889235711097726,271.09962102185386
+[23:09:19] [Server thread/WARN]: Irasoma moved too quickly! 196.25961181462753,-6.889235711097726,271.09962102185386
+[23:09:19] [Server thread/WARN]: Irasoma moved too quickly! 196.25961181462753,-6.889235711097726,271.09962102185386
+[23:10:05] [Server thread/INFO]: ZaosKeysalor fell from a high place
+[23:11:03] [Server thread/INFO]: [Irasoma: Teleported ZaosKeysalor to Sleeping_and]
+[23:11:24] [Server thread/INFO]: [Irasoma: Teleported MissMinuArt to ZaosKeysalor]
+[23:18:09] [Server thread/INFO]: ZaosKeysalor has made the advancement [Take Aim]
+[23:19:28] [Server thread/INFO]: Sleeping_and has made the advancement [Best Friends Forever]
+[23:31:15] [Server thread/WARN]: Mismatch in destroy block pos: hx{x=3441, y=111, z=-1427} hx{x=3442, y=111, z=-1426}
+[23:31:21] [Server thread/WARN]: Mismatch in destroy block pos: hx{x=3435, y=110, z=-1422} hx{x=3435, y=110, z=-1419}
+[23:31:21] [Server thread/WARN]: Mismatch in destroy block pos: hx{x=3435, y=110, z=-1422} hx{x=3435, y=110, z=-1419}
+[23:31:21] [Server thread/WARN]: Mismatch in destroy block pos: hx{x=3435, y=110, z=-1423} hx{x=3434, y=109, z=-1422}
+[23:34:06] [Server thread/INFO]: Irasoma lost connection: Disconnected
+[23:34:06] [Server thread/INFO]: Irasoma left the game
+[23:35:53] [Server thread/INFO]: Sleeping_and lost connection: Disconnected
+[23:35:53] [Server thread/INFO]: Sleeping_and left the game
+[23:36:07] [User Authenticator #14/INFO]: UUID of player Sleeping_and is 5d9be168-fd25-4c47-b6c0-84c85f10f386
+[23:36:07] [Server thread/INFO]: Sleeping_and[/200.85.212.55:51963] logged in with entity id 74950 at (3398.847715687089, 87.0, -1267.392814101293)
+[23:36:07] [Server thread/INFO]: Sleeping_and joined the game
+[23:47:33] [Server thread/INFO]: Sleeping_and lost connection: Disconnected
+[23:47:33] [Server thread/INFO]: Sleeping_and left the game
+[23:49:34] [User Authenticator #15/INFO]: UUID of player Sleeping_and is 5d9be168-fd25-4c47-b6c0-84c85f10f386
+[23:49:34] [Server thread/INFO]: Sleeping_and[/200.85.212.55:51988] logged in with entity id 78044 at (3383.504110805588, 99.0, -1424.897516334902)
+[23:49:34] [Server thread/INFO]: Sleeping_and joined the game
+[23:54:12] [Server thread/WARN]: Mismatch in destroy block pos: hx{x=3309, y=96, z=-1282} hx{x=3307, y=97, z=-1282}
+[23:54:13] [Server thread/WARN]: Mismatch in destroy block pos: hx{x=3305, y=97, z=-1281} hx{x=3304, y=97, z=-1281}
+[23:59:36] [Server thread/INFO]: Sleeping_and lost connection: Disconnected
+[23:59:36] [Server thread/INFO]: Sleeping_and left the game
+[23:59:47] [User Authenticator #16/INFO]: UUID of player Sleeping_and is 5d9be168-fd25-4c47-b6c0-84c85f10f386
+[23:59:47] [Server thread/INFO]: Sleeping_and[/200.85.212.55:52007] logged in with entity id 80543 at (3389.699999988079, 75.0, -1271.7034650931262)
+[23:59:47] [Server thread/INFO]: Sleeping_and joined the game

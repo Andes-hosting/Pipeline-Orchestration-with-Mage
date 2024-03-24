@@ -1,0 +1,95 @@
+[06:01:40] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[06:01:42] [ServerMain/INFO]: Loaded 7 recipes
+[06:01:42] [ServerMain/INFO]: Loaded 1271 advancements
+[06:01:43] [Server thread/INFO]: Starting minecraft server version 1.20.4
+[06:01:43] [Server thread/INFO]: Loading properties
+[06:01:43] [Server thread/INFO]: Default game type: SURVIVAL
+[06:01:43] [Server thread/INFO]: Generating keypair
+[06:01:43] [Server thread/INFO]: Starting Minecraft server on 0.0.0.0:27000
+[06:01:43] [Server thread/INFO]: Using epoll channel type
+[06:01:43] [Server thread/INFO]: Preparing level "world"
+[06:01:44] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[06:01:47] [Worker-Main-20/INFO]: Preparing spawn area: 0%
+[06:01:47] [Worker-Main-14/INFO]: Preparing spawn area: 0%
+[06:01:47] [Worker-Main-11/INFO]: Preparing spawn area: 0%
+[06:01:47] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[06:01:47] [Worker-Main-20/INFO]: Preparing spawn area: 0%
+[06:01:47] [Worker-Main-10/INFO]: Preparing spawn area: 0%
+[06:01:47] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[06:01:48] [Worker-Main-22/INFO]: Preparing spawn area: 0%
+[06:01:48] [Worker-Main-19/INFO]: Preparing spawn area: 1%
+[06:01:49] [Worker-Main-8/INFO]: Preparing spawn area: 27%
+[06:01:49] [Worker-Main-8/INFO]: Preparing spawn area: 63%
+[06:01:50] [Server thread/INFO]: Time elapsed: 5468 ms
+[06:01:50] [Server thread/INFO]: Done (6.336s)! For help, type "help"
+[22:40:18] [User Authenticator #1/INFO]: UUID of player Sleeping_and is 5d9be168-fd25-4c47-b6c0-84c85f10f386
+[22:40:19] [Server thread/INFO]: Sleeping_and[/179.56.59.159:50553] logged in with entity id 92 at (3404.5294110048394, 94.0, -1262.5164918232258)
+[22:40:19] [Server thread/INFO]: Sleeping_and joined the game
+[22:42:03] [User Authenticator #2/INFO]: UUID of player Irasoma is a2617195-1554-4a1e-a999-c3875761266e
+[22:42:03] [Server thread/INFO]: Irasoma[/192.168.1.1:56198] logged in with entity id 869 at (3361.699999988079, -13.0, -1184.300000011921)
+[22:42:03] [Server thread/INFO]: Irasoma joined the game
+[22:42:18] [User Authenticator #3/INFO]: UUID of player LeeroyPerkins is 2bdc2115-56e5-455a-ae7a-ec0c69f7e3cb
+[22:42:19] [Server thread/INFO]: LeeroyPerkins[/186.78.119.171:62025] logged in with entity id 998 at (3466.407615554351, 113.0, -1396.2438674697964)
+[22:42:19] [Server thread/INFO]: LeeroyPerkins joined the game
+[22:44:55] [User Authenticator #4/INFO]: UUID of player MissMinuArt is dca46a5d-5d60-487e-9bf7-e9d7eb1239dc
+[22:44:56] [Server thread/INFO]: MissMinuArt[/152.172.122.22:52517] logged in with entity id 1896 at (3630.567488043402, 68.0, -1856.4930832091563)
+[22:44:56] [Server thread/INFO]: MissMinuArt joined the game
+[22:46:40] [Server thread/INFO]: [Irasoma: Teleported MissMinuArt to Irasoma]
+[22:47:24] [Server thread/INFO]: Sleeping_and was killed
+[22:47:24] [Server thread/INFO]: [Irasoma: Killed Sleeping_and]
+[22:48:16] [Server thread/INFO]: [Irasoma: Gave 12 [Rotten Flesh] to MissMinuArt]
+[22:49:15] [Server thread/INFO]: Sleeping_and was killed
+[22:49:15] [Server thread/INFO]: [Irasoma: Killed Sleeping_and]
+[22:49:52] [Server thread/INFO]: Sleeping_and was killed
+[22:49:52] [Server thread/INFO]: [Irasoma: Killed Sleeping_and]
+[22:51:44] [Server thread/INFO]: Sleeping_and was killed while fighting MissMinuArt
+[22:51:44] [Server thread/INFO]: [Irasoma: Killed Sleeping_and]
+[22:51:48] [Server thread/WARN]: Sleeping_and moved too quickly! 50.522631843089584,-26.0,113.86985755398359
+[22:52:33] [Server thread/INFO]: LeeroyPerkins was killed
+[22:52:33] [Server thread/INFO]: [Irasoma: Killed LeeroyPerkins]
+[22:52:36] [Server thread/WARN]: LeeroyPerkins moved too quickly! 131.35858340379036,7.0,-24.081674528502617
+[22:52:36] [Server thread/WARN]: LeeroyPerkins moved too quickly! 131.35858340379036,7.0,-24.081674528502617
+[22:52:49] [Server thread/INFO]: Sleeping_and was killed
+[22:52:49] [Server thread/INFO]: [Irasoma: Killed Sleeping_and]
+[22:54:29] [Server thread/INFO]: [Irasoma: Applied effect Night Vision to MissMinuArt]
+[22:55:05] [Server thread/INFO]: LeeroyPerkins was slain by Wolf
+[22:56:21] [Server thread/INFO]: Sleeping_and was slain by Wolf
+[22:57:10] [Server thread/INFO]: [Irasoma: Gave 28 [Rotten Flesh] to MissMinuArt]
+[22:59:58] [Server thread/INFO]: MissMinuArt was slain by Sleeping_and
+[22:59:59] [Server thread/INFO]: Sleeping_and was killed
+[22:59:59] [Server thread/INFO]: [Irasoma: Killed Sleeping_and]
+[23:00:25] [Server thread/INFO]: [Irasoma: Teleported MissMinuArt to Irasoma]
+[23:04:27] [Server thread/INFO]: LeeroyPerkins was slain by Enderman
+[23:04:28] [Server thread/WARN]: LeeroyPerkins moved too quickly! 36.80000001192093,7.0,-8.640505325265849
+[23:04:28] [Server thread/WARN]: LeeroyPerkins moved too quickly! 36.80000001192093,7.0,-8.640505325265849
+[23:05:15] [Server thread/INFO]: Irasoma lost connection: Disconnected
+[23:05:15] [Server thread/INFO]: Irasoma left the game
+[23:06:56] [User Authenticator #5/INFO]: UUID of player Irasoma is a2617195-1554-4a1e-a999-c3875761266e
+[23:06:56] [Server thread/INFO]: Irasoma[/192.168.1.1:56293] logged in with entity id 7850 at (3343.9870171781845, 117.5, -1380.6387628679654)
+[23:06:56] [Server thread/INFO]: Irasoma joined the game
+[23:08:13] [Server thread/INFO]: [Irasoma: Set the time to 13000]
+[23:09:08] [Server thread/INFO]: [Irasoma: Teleported Irasoma to Sleeping_and]
+[23:09:08] [Server thread/WARN]: Irasoma moved too quickly! -42.228161252392056,-20.0,51.77158326810081
+[23:09:08] [Server thread/WARN]: Irasoma moved too quickly! -42.228161252392056,-20.0,51.77158326810081
+[23:09:08] [Server thread/WARN]: Irasoma moved too quickly! -42.228161252392056,-20.0,51.77158326810081
+[23:18:57] [Server thread/INFO]: LeeroyPerkins was killed
+[23:18:57] [Server thread/INFO]: [Irasoma: Killed LeeroyPerkins]
+[23:19:03] [Server thread/WARN]: LeeroyPerkins moved too quickly! 43.67292984667256,32.0,-121.82992146917604
+[23:21:31] [Server thread/INFO]: Sleeping_and has reached the goal [Zombie Doctor]
+[23:24:35] [Server thread/INFO]: [Irasoma: Set the time to 1000]
+[23:25:46] [Server thread/INFO]: [Irasoma: Gave 1 [Axolotl Spawn Egg] to MissMinuArt]
+[23:25:59] [Server thread/INFO]: [Irasoma: Set the time to 1000]
+[23:34:57] [Server thread/INFO]: [Irasoma: Teleported LeeroyPerkins to MissMinuArt]
+[23:35:52] [Server thread/INFO]: [Irasoma: Gave 1 [Fox Spawn Egg] to MissMinuArt]
+[23:37:17] [Server thread/INFO]: [Irasoma: Gave 1 [Fox Spawn Egg] to MissMinuArt]
+[23:37:47] [Server thread/INFO]: Sleeping_and tried to swim in lava
+[23:37:53] [Server thread/INFO]: Sleeping_and lost connection: Disconnected
+[23:37:53] [Server thread/INFO]: Sleeping_and left the game
+[23:38:11] [Server thread/INFO]: MissMinuArt lost connection: Disconnected
+[23:38:11] [Server thread/INFO]: MissMinuArt left the game
+[23:38:17] [User Authenticator #6/INFO]: UUID of player MissMinuArt is dca46a5d-5d60-487e-9bf7-e9d7eb1239dc
+[23:38:17] [Server thread/INFO]: MissMinuArt[/152.172.122.22:53311] logged in with entity id 16102 at (3350.888859336225, 112.0, -1380.5777060251307)
+[23:38:17] [Server thread/INFO]: MissMinuArt joined the game
+[23:39:55] [Server thread/INFO]: [Irasoma: Gave 1 [Fox Spawn Egg] to MissMinuArt]
+[23:46:37] [Server thread/INFO]: Irasoma lost connection: Disconnected
+[23:46:37] [Server thread/INFO]: Irasoma left the game

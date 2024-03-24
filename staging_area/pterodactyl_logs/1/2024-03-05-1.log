@@ -1,0 +1,61 @@
+[06:01:39] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[06:01:40] [ServerMain/INFO]: Loaded 7 recipes
+[06:01:40] [ServerMain/INFO]: Loaded 1271 advancements
+[06:01:41] [Server thread/INFO]: Starting minecraft server version 1.20.4
+[06:01:41] [Server thread/INFO]: Loading properties
+[06:01:41] [Server thread/INFO]: Default game type: SURVIVAL
+[06:01:41] [Server thread/INFO]: Generating keypair
+[06:01:41] [Server thread/INFO]: Starting Minecraft server on 0.0.0.0:27000
+[06:01:41] [Server thread/INFO]: Using epoll channel type
+[06:01:42] [Server thread/INFO]: Preparing level "world"
+[06:01:42] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[06:01:45] [Worker-Main-18/INFO]: Preparing spawn area: 0%
+[06:01:45] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[06:01:45] [Worker-Main-19/INFO]: Preparing spawn area: 0%
+[06:01:45] [Worker-Main-18/INFO]: Preparing spawn area: 0%
+[06:01:45] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[06:01:45] [Worker-Main-18/INFO]: Preparing spawn area: 0%
+[06:01:45] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[06:01:46] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[06:01:46] [Worker-Main-15/INFO]: Preparing spawn area: 0%
+[06:01:47] [Worker-Main-22/INFO]: Preparing spawn area: 13%
+[06:01:47] [Worker-Main-1/INFO]: Preparing spawn area: 51%
+[06:01:48] [Worker-Main-23/INFO]: Preparing spawn area: 89%
+[06:01:48] [Server thread/INFO]: Time elapsed: 5615 ms
+[06:01:48] [Server thread/INFO]: Done (6.520s)! For help, type "help"
+[13:14:58] [User Authenticator #1/INFO]: UUID of player LeeroyPerkins is 2bdc2115-56e5-455a-ae7a-ec0c69f7e3cb
+[13:14:58] [Server thread/INFO]: LeeroyPerkins[/186.78.119.171:63858] logged in with entity id 92 at (3461.44984434539, 113.0, -1389.2211582951163)
+[13:14:58] [Server thread/INFO]: LeeroyPerkins joined the game
+[13:15:31] [Server thread/INFO]: LeeroyPerkins lost connection: Disconnected
+[13:15:31] [Server thread/INFO]: LeeroyPerkins left the game
+[14:24:37] [User Authenticator #2/INFO]: UUID of player LeeroyPerkins is 2bdc2115-56e5-455a-ae7a-ec0c69f7e3cb
+[14:24:37] [Server thread/INFO]: LeeroyPerkins[/186.78.119.171:64330] logged in with entity id 490 at (3437.265956019935, 103.0, -1311.9914796580267)
+[14:24:37] [Server thread/INFO]: LeeroyPerkins joined the game
+[14:40:47] [Server thread/INFO]: LeeroyPerkins lost connection: Disconnected
+[14:40:47] [Server thread/INFO]: LeeroyPerkins left the game
+[14:44:00] [User Authenticator #3/INFO]: UUID of player LeeroyPerkins is 2bdc2115-56e5-455a-ae7a-ec0c69f7e3cb
+[14:44:00] [Server thread/INFO]: LeeroyPerkins[/186.78.119.171:64479] logged in with entity id 3868 at (3424.2856599413026, 112.0, -1387.1035876481956)
+[14:44:00] [Server thread/INFO]: LeeroyPerkins joined the game
+[14:59:31] [Server thread/INFO]: LeeroyPerkins lost connection: Disconnected
+[14:59:31] [Server thread/INFO]: LeeroyPerkins left the game
+[16:13:53] [User Authenticator #4/INFO]: UUID of player LeeroyPerkins is 2bdc2115-56e5-455a-ae7a-ec0c69f7e3cb
+[16:13:54] [Server thread/INFO]: LeeroyPerkins[/186.78.119.171:65055] logged in with entity id 7170 at (3451.5, 119.0, -1394.5)
+[16:13:54] [Server thread/INFO]: LeeroyPerkins joined the game
+[18:08:35] [Server thread/INFO]: LeeroyPerkins lost connection: Disconnected
+[18:08:35] [Server thread/INFO]: LeeroyPerkins left the game
+[18:09:23] [User Authenticator #5/INFO]: UUID of player LeeroyPerkins is 2bdc2115-56e5-455a-ae7a-ec0c69f7e3cb
+[18:09:23] [Server thread/INFO]: LeeroyPerkins[/186.78.119.171:65458] logged in with entity id 24737 at (3458.4035032324773, 112.0, -1405.602264152434)
+[18:09:23] [Server thread/INFO]: LeeroyPerkins joined the game
+[18:20:17] [Server thread/INFO]: LeeroyPerkins lost connection: Disconnected
+[18:20:17] [Server thread/INFO]: LeeroyPerkins left the game
+[18:49:13] [User Authenticator #6/INFO]: UUID of player LeeroyPerkins is 2bdc2115-56e5-455a-ae7a-ec0c69f7e3cb
+[18:49:13] [Server thread/INFO]: LeeroyPerkins[/186.78.119.171:49195] logged in with entity id 26265 at (3453.422482486759, 113.0, -1394.8843873084618)
+[18:49:13] [Server thread/INFO]: LeeroyPerkins joined the game
+[19:20:01] [Server thread/INFO]: LeeroyPerkins lost connection: Timed out
+[19:20:01] [Server thread/INFO]: LeeroyPerkins left the game
+[19:20:01] [Server thread/WARN]: handleDisconnection() called twice
+[19:20:26] [User Authenticator #7/INFO]: UUID of player LeeroyPerkins is 2bdc2115-56e5-455a-ae7a-ec0c69f7e3cb
+[19:20:26] [Server thread/INFO]: LeeroyPerkins[/186.78.119.171:49381] logged in with entity id 30224 at (3455.741775422948, 119.0, -1393.3636602901702)
+[19:20:26] [Server thread/INFO]: LeeroyPerkins joined the game
+[20:32:32] [Server thread/INFO]: LeeroyPerkins lost connection: Disconnected
+[20:32:32] [Server thread/INFO]: LeeroyPerkins left the game

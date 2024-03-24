@@ -1,0 +1,18 @@
+[01:57:51] [User Authenticator #17/INFO]: UUID of player ZaosKeysalor is c9f947b0-af80-47c3-a303-5740993c2038
+[01:57:51] [Server thread/INFO]: ZaosKeysalor[/152.172.121.123:56078] logged in with entity id 131852 at (3370.5, 116.5625, -1357.5)
+[01:57:51] [Server thread/INFO]: ZaosKeysalor joined the game
+[02:23:02] [Server thread/INFO]: ZaosKeysalor lost connection: Disconnected
+[02:23:02] [Server thread/INFO]: ZaosKeysalor left the game
+[06:00:11] [Server thread/INFO]: [Not Secure] [Server] El servidor se reiniciará en 1 minuto por motivos de mantención
+[06:01:06] [Server thread/INFO]: [Not Secure] [Server] El servidor se reiniciará en 10 segundos por motivos de mantención
+[06:01:22] [Server thread/INFO]: Stopping the server
+[06:01:22] [Server thread/INFO]: Stopping server
+[06:01:22] [Server thread/INFO]: Saving players
+[06:01:22] [Server thread/INFO]: Saving worlds
+[06:01:23] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[06:01:29] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[06:01:29] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[06:01:29] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[06:01:29] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[06:01:29] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[06:01:29] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved

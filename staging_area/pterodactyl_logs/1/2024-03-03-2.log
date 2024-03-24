@@ -1,0 +1,16 @@
+[00:54:12] [Server thread/INFO]: Villager cev['Villager'/17153, l='ServerLevel[world]', x=3532.22, y=70.00, z=-1392.97] died, message: 'Villager was slain by Zombie'
+[00:55:47] [Server thread/INFO]: LeeroyPerkins lost connection: Disconnected
+[00:55:47] [Server thread/INFO]: LeeroyPerkins left the game
+[06:00:10] [Server thread/INFO]: [Not Secure] [Server] El servidor se reiniciará en 1 minuto por motivos de mantención
+[06:01:05] [Server thread/INFO]: [Not Secure] [Server] El servidor se reiniciará en 10 segundos por motivos de mantención
+[06:01:22] [Server thread/INFO]: Stopping the server
+[06:01:22] [Server thread/INFO]: Stopping server
+[06:01:22] [Server thread/INFO]: Saving players
+[06:01:22] [Server thread/INFO]: Saving worlds
+[06:01:22] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[06:01:28] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[06:01:28] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[06:01:28] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[06:01:28] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[06:01:28] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[06:01:28] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved

@@ -1,0 +1,409 @@
+[00:00:45] [User Authenticator #41/INFO]: UUID of player LeeroyPerkins is 2bdc2115-56e5-455a-ae7a-ec0c69f7e3cb
+[00:00:45] [Server thread/INFO]: LeeroyPerkins[/186.78.102.40:60457] logged in with entity id 201581 at (2979.300000011921, 141.0, -741.6999999880791)
+[00:00:45] [Server thread/INFO]: LeeroyPerkins joined the game
+[00:00:48] [Server thread/INFO]: LeeroyPerkins lost connection: Disconnected
+[00:00:48] [Server thread/INFO]: LeeroyPerkins left the game
+[00:01:43] [Server thread/INFO]: rrariate lost connection: Disconnected
+[00:01:43] [Server thread/INFO]: rrariate left the game
+[00:02:12] [User Authenticator #42/INFO]: UUID of player LeeroyPerkins is 2bdc2115-56e5-455a-ae7a-ec0c69f7e3cb
+[00:02:12] [Server thread/INFO]: LeeroyPerkins[/186.78.102.40:60492] logged in with entity id 202109 at (2979.300000011921, 141.0, -741.6999999880791)
+[00:02:12] [Server thread/INFO]: LeeroyPerkins joined the game
+[00:03:06] [User Authenticator #43/INFO]: UUID of player rrariate is ef2493fd-6557-4ce5-b466-08c79131629e
+[00:03:06] [Server thread/INFO]: rrariate[/181.226.63.253:60627] logged in with entity id 202609 at (61.69999998807907, 75.0, -846.5950324207257)
+[00:03:06] [Server thread/INFO]: rrariate joined the game
+[00:06:19] [Server thread/INFO]: Sleeping_and lost connection: Disconnected
+[00:06:19] [Server thread/INFO]: Sleeping_and left the game
+[00:07:46] [Server thread/WARN]: Mismatch in destroy block pos: hx{x=-253, y=64, z=-822} hx{x=-253, y=62, z=-822}
+[00:07:46] [Server thread/WARN]: Mismatch in destroy block pos: hx{x=-253, y=64, z=-822} hx{x=-253, y=62, z=-822}
+[00:07:47] [Server thread/WARN]: Mismatch in destroy block pos: hx{x=-254, y=64, z=-820} hx{x=-253, y=63, z=-820}
+[00:07:47] [Server thread/WARN]: Mismatch in destroy block pos: hx{x=-254, y=64, z=-819} hx{x=-254, y=62, z=-818}
+[00:07:47] [Server thread/WARN]: Mismatch in destroy block pos: hx{x=-254, y=64, z=-819} hx{x=-254, y=62, z=-818}
+[00:07:51] [Server thread/WARN]: Mismatch in destroy block pos: hx{x=-259, y=64, z=-819} hx{x=-259, y=63, z=-820}
+[00:14:42] [Server thread/INFO]: rrariate has made the advancement [Sweet Dreams]
+[00:17:53] [Server thread/INFO]: MissMinuArt has made the advancement [Ol' Betsy]
+[00:18:21] [Server thread/INFO]: MissMinuArt has made the advancement [Take Aim]
+[00:27:38] [Server thread/INFO]: ZaosKeysalor was slain by Zombie
+[00:27:38] [Server thread/INFO]: MissMinuArt was slain by Zombie
+[00:28:47] [Server thread/INFO]: LeeroyPerkins lost connection: Disconnected
+[00:28:47] [Server thread/INFO]: LeeroyPerkins left the game
+[00:30:48] [User Authenticator #44/INFO]: UUID of player LeeroyPerkins is 2bdc2115-56e5-455a-ae7a-ec0c69f7e3cb
+[00:30:48] [Server thread/INFO]: LeeroyPerkins[/186.78.102.40:60793] logged in with entity id 222545 at (3523.310248243295, 113.0, -658.4218757396999)
+[00:30:48] [Server thread/INFO]: LeeroyPerkins joined the game
+[00:31:10] [Server thread/INFO]: rrariate has made the advancement [Acquire Hardware]
+[00:32:53] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10823ms or 216 ticks behind
+[00:32:53] [Server thread/WARN]: LeeroyPerkins moved too quickly! -17.901524476620125,-27.9375,-1.402886042612863
+[00:37:23] [Server thread/INFO]: ZaosKeysalor has made the advancement [Suit Up]
+[00:38:13] [Server thread/INFO]: rrariate has made the advancement [Suit Up]
+[00:40:26] [Server thread/INFO]: LeeroyPerkins lost connection: Disconnected
+[00:40:26] [Server thread/INFO]: LeeroyPerkins left the game
+[00:41:21] [Server thread/INFO]: ZaosKeysalor lost connection: Disconnected
+[00:41:21] [Server thread/INFO]: ZaosKeysalor left the game
+[00:41:23] [Server thread/INFO]: MissMinuArt lost connection: Disconnected
+[00:41:23] [Server thread/INFO]: MissMinuArt left the game
+[00:57:40] [Server thread/INFO]: rrariate lost connection: Disconnected
+[00:57:40] [Server thread/INFO]: rrariate left the game
+[11:52:08] [User Authenticator #45/INFO]: UUID of player MissMinuArt is dca46a5d-5d60-487e-9bf7-e9d7eb1239dc
+[11:52:09] [Server thread/INFO]: MissMinuArt[/152.172.247.197:53152] logged in with entity id 234024 at (3371.030750225228, 112.0, -1347.1508278466822)
+[11:52:09] [Server thread/INFO]: MissMinuArt joined the game
+[13:02:38] [Server thread/INFO]: MissMinuArt lost connection: Disconnected
+[13:02:38] [Server thread/INFO]: MissMinuArt left the game
+[13:52:10] [User Authenticator #46/INFO]: UUID of player Sleeping_and is 5d9be168-fd25-4c47-b6c0-84c85f10f386
+[13:52:11] [Server thread/INFO]: Sleeping_and[/190.217.184.189:53939] logged in with entity id 243638 at (3398.9258311944463, 86.0, -1272.0359711231183)
+[13:52:11] [Server thread/INFO]: Sleeping_and joined the game
+[13:58:33] [Server thread/INFO]: Sleeping_and has made the advancement [Voluntary Exile]
+[15:02:19] [Server thread/INFO]: Sleeping_and lost connection: Disconnected
+[15:02:19] [Server thread/INFO]: Sleeping_and left the game
+[16:57:49] [User Authenticator #47/INFO]: UUID of player ZaosKeysalor is c9f947b0-af80-47c3-a303-5740993c2038
+[16:57:49] [Server thread/INFO]: ZaosKeysalor[/152.172.247.197:49709] logged in with entity id 258816 at (3363.9286951306876, 112.0, -1345.5735845842112)
+[16:57:49] [Server thread/INFO]: ZaosKeysalor joined the game
+[17:07:59] [User Authenticator #48/INFO]: UUID of player MissMinuArt is dca46a5d-5d60-487e-9bf7-e9d7eb1239dc
+[17:08:00] [Server thread/INFO]: MissMinuArt[/152.172.247.197:60751] logged in with entity id 261023 at (3366.454516045097, 112.5625, -1364.749003176936)
+[17:08:00] [Server thread/INFO]: MissMinuArt joined the game
+[17:09:47] [Server thread/INFO]: <ZaosKeysalor> ew
+[17:18:36] [Server thread/INFO]: ZaosKeysalor was shot by Skeleton
+[17:24:51] [User Authenticator #49/INFO]: UUID of player Irasoma is a2617195-1554-4a1e-a999-c3875761266e
+[17:24:51] [Server thread/INFO]: Irasoma[/192.168.1.1:56017] logged in with entity id 263720 at (3376.23290717951, 86.0, -1255.4481127769627)
+[17:24:51] [Server thread/INFO]: Irasoma joined the game
+[17:25:09] [Server thread/INFO]: [Irasoma: Teleported Irasoma to MissMinuArt]
+[17:25:09] [Server thread/WARN]: Irasoma moved too quickly! -4.53290719143115,-134.0,-29.926286429983747
+[17:25:09] [Server thread/WARN]: Irasoma moved too quickly! -4.53290719143115,-134.0,-29.926286429983747
+[17:25:51] [Server thread/INFO]: Locating element minecraft:ancient_city took 0 ms
+[17:28:05] [Server thread/INFO]: [Irasoma: Teleported MissMinuArt to Irasoma]
+[17:35:41] [Server thread/INFO]: [Irasoma: Teleported Irasoma to MissMinuArt]
+[17:35:41] [Server thread/WARN]: Irasoma moved too quickly! -10.126673293085332,4.0,3.6357870220663244
+[17:38:01] [Server thread/INFO]: Irasoma has made the advancement [Diamonds!]
+[17:49:33] [Server thread/INFO]: [Irasoma: Teleported Irasoma to MissMinuArt]
+[17:49:33] [Server thread/WARN]: Irasoma moved too quickly! 34.98670660381504,10.0,-8.614019780689205
+[17:49:33] [Server thread/WARN]: Irasoma moved too quickly! 34.98670660381504,10.0,-8.614019780689205
+[17:49:33] [Server thread/WARN]: Irasoma moved too quickly! 34.98670660381504,10.0,-8.614019780689205
+[17:52:13] [Server thread/INFO]: [Irasoma: Teleported Irasoma to MissMinuArt]
+[17:52:13] [Server thread/WARN]: Irasoma moved too quickly! 13.263241246814232,-43.0,101.71513347335826
+[17:52:13] [Server thread/WARN]: Irasoma moved too quickly! 13.263241246814232,-43.0,101.71513347335826
+[17:52:13] [Server thread/WARN]: Irasoma moved too quickly! 13.263241246814232,-43.0,101.71513347335826
+[17:52:13] [Server thread/WARN]: Irasoma moved too quickly! 13.263241246814232,-43.0,101.71513347335826
+[17:54:04] [Server thread/INFO]: [Irasoma: Teleported Irasoma to MissMinuArt]
+[17:54:04] [Server thread/WARN]: Irasoma moved too quickly! -46.43151465951769,-114.0,8.756838305576593
+[17:54:04] [Server thread/WARN]: Irasoma moved too quickly! -46.43151465951769,-114.0,8.756838305576593
+[17:54:04] [Server thread/WARN]: Irasoma moved too quickly! -46.43151465951769,-114.0,8.756838305576593
+[17:54:04] [Server thread/WARN]: Irasoma moved too quickly! -46.43151465951769,-114.0,8.756838305576593
+[17:55:23] [Server thread/INFO]: [Irasoma: Teleported Irasoma to MissMinuArt]
+[17:55:23] [Server thread/WARN]: Irasoma moved too quickly! -8.038553158395644,-12.0,30.033777246166892
+[17:55:23] [Server thread/WARN]: Irasoma moved too quickly! -8.038553158395644,-12.0,30.033777246166892
+[17:55:23] [Server thread/WARN]: Irasoma moved too quickly! -8.038553158395644,-12.0,30.033777246166892
+[17:55:23] [Server thread/WARN]: Irasoma moved too quickly! -8.038553158395644,-12.0,30.033777246166892
+[17:55:23] [Server thread/WARN]: Irasoma moved too quickly! -8.038553158395644,-12.0,30.033777246166892
+[17:55:23] [Server thread/WARN]: Irasoma moved too quickly! -8.038553158395644,-12.0,30.033777246166892
+[17:58:18] [Server thread/INFO]: [Irasoma: Teleported Irasoma to MissMinuArt]
+[17:58:18] [Server thread/WARN]: Irasoma moved too quickly! -2.2734655037993434,-31.0,-5.9061665909193835
+[17:58:18] [Server thread/WARN]: Irasoma moved too quickly! -2.2734655037993434,-31.0,-5.9061665909193835
+[17:58:18] [Server thread/WARN]: Irasoma moved too quickly! -2.2734655037993434,-31.0,-5.9061665909193835
+[17:58:18] [Server thread/WARN]: Irasoma moved too quickly! -2.2734655037993434,-31.0,-5.9061665909193835
+[17:58:18] [Server thread/WARN]: Irasoma moved too quickly! -2.2734655037993434,-31.0,-5.9061665909193835
+[18:07:35] [Server thread/INFO]: [Irasoma: Teleported Irasoma to ZaosKeysalor]
+[18:07:35] [Server thread/WARN]: Irasoma moved too quickly! 6.875885593363364,173.0,-47.30391241916573
+[18:07:35] [Server thread/WARN]: Irasoma moved too quickly! 6.875885593363364,173.0,-47.30391241916573
+[18:07:35] [Server thread/WARN]: Irasoma moved too quickly! 6.875885593363364,173.0,-47.30391241916573
+[18:08:34] [Server thread/INFO]: [Irasoma: Teleported MissMinuArt to Irasoma]
+[18:08:34] [Server thread/WARN]: MissMinuArt moved too quickly! 38.542867457035754,211.6519333831928,-40.243984821833465
+[18:08:36] [Server thread/INFO]: MissMinuArt fell from a high place
+[18:08:46] [Server thread/INFO]: <ZaosKeysalor> e
+[18:19:52] [Server thread/INFO]: [Irasoma: Successfully filled 29295 block(s)]
+[18:21:25] [Server thread/INFO]: [Irasoma: Successfully filled 20615 block(s)]
+[18:23:06] [Server thread/INFO]: <ZaosKeysalor> eee
+[18:35:51] [Server thread/INFO]: Irasoma has made the advancement [A Throwaway Joke]
+[18:40:02] [Server thread/INFO]: [Irasoma: Removed every effect from Irasoma]
+[18:42:56] [Server thread/INFO]: [Irasoma: Successfully filled 14105 block(s)]
+[18:45:27] [Server thread/INFO]: [Irasoma: Successfully filled 2170 block(s)]
+[18:59:18] [Server thread/INFO]: MissMinuArt was slain by Drowned
+[19:00:30] [Server thread/INFO]: Irasoma lost connection: Disconnected
+[19:00:30] [Server thread/INFO]: Irasoma left the game
+[19:06:40] [User Authenticator #50/INFO]: UUID of player Sleeping_and is 5d9be168-fd25-4c47-b6c0-84c85f10f386
+[19:06:40] [Server thread/INFO]: Sleeping_and[/179.56.58.70:50206] logged in with entity id 284668 at (3385.7968087735208, 86.0, -1268.8861854920679)
+[19:06:40] [Server thread/INFO]: Sleeping_and joined the game
+[19:27:13] [Server thread/INFO]: ZaosKeysalor has made the advancement [The Cutest Predator]
+[19:30:22] [Server thread/INFO]: Sleeping_and was doomed to fall by Skeleton
+[19:55:06] [Server thread/INFO]: Sleeping_and lost connection: Disconnected
+[19:55:06] [Server thread/INFO]: Sleeping_and left the game
+[20:14:54] [Server thread/INFO]: MissMinuArt lost connection: Disconnected
+[20:14:54] [Server thread/INFO]: MissMinuArt left the game
+[20:15:35] [User Authenticator #51/INFO]: UUID of player LeeroyPerkins is 2bdc2115-56e5-455a-ae7a-ec0c69f7e3cb
+[20:15:35] [Server thread/INFO]: LeeroyPerkins[/186.78.102.40:61191] logged in with entity id 308131 at (3828.699999988079, 69.0, -896.9713682589745)
+[20:15:35] [Server thread/INFO]: LeeroyPerkins joined the game
+[20:23:24] [Server thread/INFO]: LeeroyPerkins has made the advancement [Ice Bucket Challenge]
+[20:23:30] [User Authenticator #52/INFO]: UUID of player Irasoma is a2617195-1554-4a1e-a999-c3875761266e
+[20:23:31] [Server thread/INFO]: Irasoma[/192.168.1.1:56787] logged in with entity id 313395 at (3412.7077626319956, -6.0, -1227.876026472492)
+[20:23:31] [Server thread/INFO]: Irasoma joined the game
+[20:28:37] [Server thread/INFO]: LeeroyPerkins lost connection: Disconnected
+[20:28:37] [Server thread/INFO]: LeeroyPerkins left the game
+[20:29:15] [User Authenticator #53/INFO]: UUID of player LeeroyPerkins is 2bdc2115-56e5-455a-ae7a-ec0c69f7e3cb
+[20:29:15] [Server thread/INFO]: LeeroyPerkins[/186.78.102.40:61235] logged in with entity id 317734 at (4070.145175261296, 102.0, 246.2049094599406)
+[20:29:15] [Server thread/INFO]: LeeroyPerkins joined the game
+[20:33:20] [Server thread/INFO]: LeeroyPerkins has made the advancement [Light as a Rabbit]
+[20:39:19] [User Authenticator #54/INFO]: UUID of player Sleeping_and is 5d9be168-fd25-4c47-b6c0-84c85f10f386
+[20:39:19] [Server thread/INFO]: Sleeping_and[/179.56.58.70:51582] logged in with entity id 322397 at (4756.69277670899, 83.0, -1682.4704597206387)
+[20:39:19] [Server thread/INFO]: Sleeping_and joined the game
+[20:41:36] [Server thread/INFO]: [Irasoma: Applied effect Night Vision to Irasoma]
+[20:41:37] [Server thread/INFO]: LeeroyPerkins lost connection: Disconnected
+[20:41:37] [Server thread/INFO]: LeeroyPerkins left the game
+[20:43:08] [Server thread/INFO]: Irasoma lost connection: Disconnected
+[20:43:08] [Server thread/INFO]: Irasoma left the game
+[20:44:00] [Server thread/INFO]: Sleeping_and lost connection: Disconnected
+[20:44:00] [Server thread/INFO]: Sleeping_and left the game
+[20:44:16] [User Authenticator #55/INFO]: UUID of player Sleeping_and is 5d9be168-fd25-4c47-b6c0-84c85f10f386
+[20:44:16] [Server thread/INFO]: Sleeping_and[/179.56.58.70:51595] logged in with entity id 326203 at (4578.300000011921, 149.0, -2209.699999988079)
+[20:44:16] [Server thread/INFO]: Sleeping_and joined the game
+[20:44:24] [User Authenticator #56/INFO]: UUID of player LeeroyPerkins is 2bdc2115-56e5-455a-ae7a-ec0c69f7e3cb
+[20:44:24] [Server thread/INFO]: LeeroyPerkins[/186.78.102.40:61324] logged in with entity id 326456 at (4248.542628946671, 167.0, 1016.7121198261399)
+[20:44:24] [Server thread/INFO]: LeeroyPerkins joined the game
+[20:44:59] [Server thread/WARN]: Mismatch in destroy block pos: hx{x=4578, y=148, z=-2209} hx{x=4577, y=148, z=-2209}
+[20:44:59] [Server thread/WARN]: Mismatch in destroy block pos: hx{x=4578, y=148, z=-2209} hx{x=4577, y=148, z=-2209}
+[20:44:59] [Server thread/WARN]: Mismatch in destroy block pos: hx{x=4578, y=148, z=-2209} hx{x=4577, y=148, z=-2209}
+[20:44:59] [Server thread/WARN]: Mismatch in destroy block pos: hx{x=4578, y=148, z=-2209} hx{x=4577, y=148, z=-2209}
+[20:44:59] [Server thread/WARN]: Mismatch in destroy block pos: hx{x=4578, y=147, z=-2209} hx{x=4577, y=148, z=-2209}
+[20:45:42] [Server thread/WARN]: Mismatch in destroy block pos: hx{x=4582, y=137, z=-2206} hx{x=4582, y=138, z=-2205}
+[20:45:43] [Server thread/WARN]: Mismatch in destroy block pos: hx{x=4582, y=137, z=-2206} hx{x=4582, y=136, z=-2206}
+[20:45:43] [Server thread/WARN]: Mismatch in destroy block pos: hx{x=4579, y=138, z=-2204} hx{x=4580, y=138, z=-2206}
+[20:47:37] [User Authenticator #57/INFO]: UUID of player Irasoma is a2617195-1554-4a1e-a999-c3875761266e
+[20:47:37] [Server thread/INFO]: Irasoma[/192.168.1.1:56955] logged in with entity id 328111 at (3393.5485519531358, 36.0, -1209.318113955519)
+[20:47:37] [Server thread/INFO]: Irasoma joined the game
+[20:49:52] [Server thread/INFO]: Sleeping_and tried to swim in lava
+[20:50:57] [Server thread/INFO]: [Irasoma: Successfully filled 17999 block(s)]
+[20:51:28] [Server thread/INFO]: Sleeping_and fell from a high place
+[20:54:57] [Server thread/INFO]: [Irasoma: Teleported Irasoma to Sleeping_and]
+[20:54:57] [Server thread/WARN]: Irasoma moved too quickly! -144.26459069953307,45.110764288902274,-727.915377150696
+[20:55:24] [Server thread/INFO]: LeeroyPerkins lost connection: Disconnected
+[20:55:24] [Server thread/INFO]: LeeroyPerkins left the game
+[20:57:19] [Server thread/INFO]: [Irasoma: Teleported Irasoma to Sleeping_and]
+[20:57:19] [Server thread/WARN]: Irasoma moved too quickly! 243.0537385565599,-5.770077209556696,-573.3762058635978
+[20:57:19] [Server thread/WARN]: Irasoma moved too quickly! 243.0537385565599,-5.770077209556696,-573.3762058635978
+[20:57:19] [Server thread/WARN]: Irasoma moved too quickly! 243.0537385565599,-5.770077209556696,-573.3762058635978
+[21:02:02] [Server thread/INFO]: Irasoma lost connection: Disconnected
+[21:02:02] [Server thread/INFO]: Irasoma left the game
+[21:02:21] [User Authenticator #58/INFO]: UUID of player Irasoma is a2617195-1554-4a1e-a999-c3875761266e
+[21:02:21] [Server thread/INFO]: Irasoma[/192.168.1.1:57059] logged in with entity id 338805 at (3507.2620609568016, 70.0, -2348.651905392753)
+[21:02:21] [Server thread/INFO]: Irasoma joined the game
+[21:07:51] [Server thread/INFO]: ZaosKeysalor lost connection: Disconnected
+[21:07:51] [Server thread/INFO]: ZaosKeysalor left the game
+[21:19:51] [User Authenticator #59/INFO]: UUID of player ZaosKeysalor is c9f947b0-af80-47c3-a303-5740993c2038
+[21:19:51] [Server thread/INFO]: ZaosKeysalor[/152.172.247.197:51570] logged in with entity id 345286 at (3368.5629822862697, 116.0, -1355.9980156351726)
+[21:19:51] [Server thread/INFO]: ZaosKeysalor joined the game
+[21:20:23] [Server thread/INFO]: Irasoma has made the advancement [Glow and Behold!]
+[21:28:33] [Server thread/WARN]: Horse (vehicle of ZaosKeysalor) moved wrongly! 0.3095628919581941
+[21:28:33] [Server thread/WARN]: Horse (vehicle of ZaosKeysalor) moved wrongly! 0.8005747619545218
+[21:28:44] [Server thread/INFO]: Sleeping_and drowned
+[21:30:59] [Server thread/WARN]: Horse (vehicle of ZaosKeysalor) moved wrongly! 0.5952219753320378
+[21:32:28] [Server thread/WARN]: Horse (vehicle of ZaosKeysalor) moved wrongly! 0.26293665531191834
+[21:33:39] [Server thread/WARN]: Mismatch in destroy block pos: hx{x=4476, y=133, z=234} hx{x=4476, y=132, z=233}
+[21:33:39] [Server thread/WARN]: Mismatch in destroy block pos: hx{x=4476, y=133, z=234} hx{x=4476, y=132, z=233}
+[21:33:39] [Server thread/WARN]: Mismatch in destroy block pos: hx{x=4476, y=133, z=234} hx{x=4476, y=132, z=233}
+[21:33:43] [Server thread/WARN]: Mismatch in destroy block pos: hx{x=4477, y=134, z=225} hx{x=4477, y=132, z=224}
+[21:33:43] [Server thread/WARN]: Mismatch in destroy block pos: hx{x=4477, y=134, z=225} hx{x=4477, y=132, z=224}
+[21:33:43] [Server thread/WARN]: Mismatch in destroy block pos: hx{x=4477, y=134, z=225} hx{x=4477, y=132, z=224}
+[21:33:43] [Server thread/WARN]: Mismatch in destroy block pos: hx{x=4477, y=134, z=225} hx{x=4477, y=132, z=224}
+[21:33:43] [Server thread/WARN]: Mismatch in destroy block pos: hx{x=4477, y=134, z=225} hx{x=4477, y=132, z=224}
+[21:33:43] [Server thread/WARN]: Mismatch in destroy block pos: hx{x=4477, y=134, z=225} hx{x=4477, y=132, z=224}
+[21:33:48] [Server thread/WARN]: Mismatch in destroy block pos: hx{x=4477, y=135, z=245} hx{x=4477, y=130, z=244}
+[21:33:49] [Server thread/WARN]: Mismatch in destroy block pos: hx{x=4477, y=135, z=245} hx{x=4477, y=130, z=244}
+[21:33:49] [Server thread/WARN]: Mismatch in destroy block pos: hx{x=4477, y=135, z=245} hx{x=4477, y=130, z=244}
+[21:33:49] [Server thread/WARN]: Mismatch in destroy block pos: hx{x=4477, y=135, z=245} hx{x=4477, y=130, z=244}
+[21:33:49] [Server thread/WARN]: Mismatch in destroy block pos: hx{x=4477, y=135, z=245} hx{x=4477, y=130, z=244}
+[21:33:49] [Server thread/WARN]: Mismatch in destroy block pos: hx{x=4477, y=135, z=245} hx{x=4477, y=130, z=244}
+[21:33:49] [Server thread/WARN]: Mismatch in destroy block pos: hx{x=4477, y=135, z=245} hx{x=4477, y=130, z=244}
+[21:35:05] [Server thread/WARN]: Mismatch in destroy block pos: hx{x=4479, y=134, z=244} hx{x=4478, y=134, z=244}
+[21:35:05] [Server thread/WARN]: Mismatch in destroy block pos: hx{x=4479, y=134, z=244} hx{x=4478, y=134, z=244}
+[21:35:05] [Server thread/WARN]: Mismatch in destroy block pos: hx{x=4479, y=134, z=244} hx{x=4478, y=134, z=244}
+[21:35:05] [Server thread/WARN]: Mismatch in destroy block pos: hx{x=4479, y=134, z=244} hx{x=4478, y=134, z=244}
+[21:35:05] [Server thread/WARN]: Mismatch in destroy block pos: hx{x=4479, y=134, z=244} hx{x=4478, y=134, z=244}
+[21:35:05] [Server thread/WARN]: Mismatch in destroy block pos: hx{x=4479, y=134, z=244} hx{x=4478, y=134, z=244}
+[21:35:06] [Server thread/WARN]: Mismatch in destroy block pos: hx{x=4479, y=134, z=244} hx{x=4478, y=134, z=244}
+[21:35:06] [Server thread/WARN]: Mismatch in destroy block pos: hx{x=4479, y=134, z=244} hx{x=4478, y=134, z=244}
+[21:35:06] [Server thread/WARN]: Mismatch in destroy block pos: hx{x=4479, y=134, z=244} hx{x=4478, y=134, z=244}
+[21:35:06] [Server thread/WARN]: Mismatch in destroy block pos: hx{x=4479, y=134, z=244} hx{x=4478, y=134, z=244}
+[21:35:08] [Server thread/WARN]: Mismatch in destroy block pos: hx{x=4476, y=133, z=241} hx{x=4476, y=132, z=241}
+[21:35:08] [Server thread/WARN]: Mismatch in destroy block pos: hx{x=4476, y=133, z=241} hx{x=4476, y=132, z=241}
+[21:35:08] [Server thread/WARN]: Mismatch in destroy block pos: hx{x=4476, y=133, z=241} hx{x=4476, y=132, z=241}
+[21:35:08] [Server thread/WARN]: Mismatch in destroy block pos: hx{x=4476, y=133, z=241} hx{x=4476, y=132, z=241}
+[21:35:08] [Server thread/WARN]: Mismatch in destroy block pos: hx{x=4476, y=133, z=241} hx{x=4476, y=132, z=241}
+[21:35:08] [Server thread/WARN]: Mismatch in destroy block pos: hx{x=4476, y=133, z=241} hx{x=4476, y=132, z=241}
+[21:35:59] [Server thread/WARN]: Mismatch in destroy block pos: hx{x=4475, y=135, z=250} hx{x=4476, y=130, z=249}
+[21:36:10] [Server thread/WARN]: Mismatch in destroy block pos: hx{x=4476, y=131, z=238} hx{x=4475, y=129, z=240}
+[21:39:18] [Server thread/INFO]: Sleeping_and was doomed to fall by Skeleton
+[21:40:35] [Server thread/WARN]: Horse (vehicle of ZaosKeysalor) moved wrongly! 0.633663891154356
+[21:40:35] [Server thread/WARN]: Horse (vehicle of ZaosKeysalor) moved wrongly! 1.0676219554147224
+[21:40:41] [Server thread/INFO]: Villager cev['Villager'/360951, l='ServerLevel[world]', x=3545.17, y=64.96, z=-2269.71] died, message: 'Villager was slain by Zombie'
+[21:44:00] [Server thread/INFO]: Sleeping_and drowned
+[21:44:13] [Server thread/INFO]: [Irasoma: Teleported Irasoma to Sleeping_and]
+[21:44:13] [Server thread/WARN]: Irasoma moved too quickly! -587.5550712327754,-4.0,-146.69607613389326
+[21:44:13] [Server thread/WARN]: Irasoma moved too quickly! -587.5550712327754,-4.0,-146.69607613389326
+[21:44:13] [Server thread/WARN]: Irasoma moved too quickly! -587.5550712327754,-4.0,-146.69607613389326
+[21:44:41] [Server thread/INFO]: [Irasoma: Teleported Sleeping_and to ZaosKeysalor]
+[21:44:41] [Server thread/WARN]: Sleeping_and moved too quickly! 705.5780004188441,-4.145335452684037,1520.666709332286
+[21:44:46] [Server thread/INFO]: [Irasoma: Teleported Irasoma to Sleeping_and]
+[21:44:46] [Server thread/WARN]: Irasoma moved too quickly! 707.8310004250066,-5.0,1519.4069048613146
+[21:44:46] [Server thread/WARN]: Irasoma moved too quickly! 707.8310004250066,-5.0,1519.4069048613146
+[21:44:46] [Server thread/WARN]: Irasoma moved too quickly! 707.8310004250066,-5.0,1519.4069048613146
+[21:44:46] [Server thread/WARN]: Irasoma moved too quickly! 707.8310004250066,-5.0,1519.4069048613146
+[21:45:26] [Server thread/WARN]: Horse (vehicle of ZaosKeysalor) moved wrongly! 0.2581469491375401
+[21:45:35] [Server thread/WARN]: Horse (vehicle of ZaosKeysalor) moved wrongly! 0.25084033311489046
+[21:45:36] [Server thread/WARN]: Horse (vehicle of ZaosKeysalor) moved wrongly! 0.48644058689754643
+[21:45:36] [Server thread/WARN]: Horse (vehicle of ZaosKeysalor) moved wrongly! 0.5199976390267009
+[21:45:36] [Server thread/WARN]: Horse (vehicle of ZaosKeysalor) moved wrongly! 0.538375668175672
+[21:45:36] [Server thread/WARN]: Horse (vehicle of ZaosKeysalor) moved wrongly! 0.548317536913261
+[21:45:36] [Server thread/WARN]: Horse (vehicle of ZaosKeysalor) moved wrongly! 0.5536633636341037
+[21:45:36] [Server thread/WARN]: Horse (vehicle of ZaosKeysalor) moved wrongly! 0.5566251248478299
+[21:45:36] [Server thread/WARN]: Horse (vehicle of ZaosKeysalor) moved wrongly! 0.5582883277470038
+[21:45:36] [Server thread/WARN]: Horse (vehicle of ZaosKeysalor) moved wrongly! 1.131305385597049
+[21:45:36] [Server thread/WARN]: Horse (vehicle of ZaosKeysalor) moved wrongly! 0.5597307483129186
+[21:45:36] [Server thread/WARN]: Horse (vehicle of ZaosKeysalor) moved wrongly! 0.5600350051837236
+[21:45:36] [Server thread/WARN]: Horse (vehicle of ZaosKeysalor) moved wrongly! 0.5602129860992262
+[21:45:36] [Server thread/WARN]: Horse (vehicle of ZaosKeysalor) moved wrongly! 0.5603145989170043
+[21:45:36] [Server thread/WARN]: Horse (vehicle of ZaosKeysalor) moved wrongly! 0.5603707951117196
+[21:45:36] [Server thread/WARN]: Horse (vehicle of ZaosKeysalor) moved wrongly! 0.5604013869727261
+[21:45:36] [Server thread/WARN]: Horse (vehicle of ZaosKeysalor) moved wrongly! 0.5604179056077742
+[21:45:36] [Server thread/WARN]: Horse (vehicle of ZaosKeysalor) moved wrongly! 0.5604267872107528
+[21:45:36] [Server thread/WARN]: Horse (vehicle of ZaosKeysalor) moved wrongly! 0.5477631717919874
+[21:45:36] [Server thread/WARN]: Horse (vehicle of ZaosKeysalor) moved wrongly! 0.4366411365717795
+[21:45:36] [Server thread/WARN]: Horse (vehicle of ZaosKeysalor) moved wrongly! 0.35899646753182424
+[21:45:36] [Server thread/WARN]: Horse (vehicle of ZaosKeysalor) moved wrongly! 0.31986695234354556
+[21:45:37] [Server thread/WARN]: Horse (vehicle of ZaosKeysalor) moved wrongly! 0.3073026475815368
+[21:45:37] [Server thread/WARN]: Horse (vehicle of ZaosKeysalor) moved wrongly! 0.3017450378999911
+[21:45:37] [Server thread/WARN]: Horse (vehicle of ZaosKeysalor) moved wrongly! 0.2502073792468309
+[21:45:37] [Server thread/WARN]: Horse (vehicle of ZaosKeysalor) moved wrongly! 1.0
+[21:47:58] [Server thread/INFO]: [Irasoma: Teleported Irasoma to Sleeping_and]
+[21:47:58] [Server thread/WARN]: Irasoma moved too quickly! -271.8518938493271,9.0,-335.0479222461382
+[21:47:58] [Server thread/WARN]: Irasoma moved too quickly! -271.8518938493271,9.0,-335.0479222461382
+[21:47:58] [Server thread/WARN]: Irasoma moved too quickly! -271.8518938493271,9.0,-335.0479222461382
+[21:48:25] [Server thread/WARN]: Horse (vehicle of ZaosKeysalor) moved wrongly! 0.3353178768240923
+[21:48:45] [Server thread/INFO]: Sleeping_and was impaled on a stalagmite
+[21:49:08] [Server thread/INFO]: [Irasoma: Teleported Sleeping_and to Irasoma]
+[21:49:16] [Server thread/INFO]: Sleeping_and fell from a high place
+[21:49:31] [Server thread/INFO]: [Irasoma: Teleported Sleeping_and to Irasoma]
+[21:49:37] [Server thread/INFO]: Sleeping_and fell from a high place
+[21:49:39] [Server thread/WARN]: Horse (vehicle of ZaosKeysalor) moved too quickly! -9.75422418627113,0.0,3.346044868274248
+[21:49:42] [Server thread/INFO]: [Irasoma: Teleported Sleeping_and to Irasoma]
+[21:49:42] [Server thread/WARN]: Sleeping_and moved too quickly! 769.4155446887107,35.0,1015.7962268210531
+[21:49:47] [Server thread/INFO]: Sleeping_and fell from a high place
+[21:49:53] [Server thread/INFO]: [Irasoma: Teleported Sleeping_and to Irasoma]
+[21:50:03] [Server thread/INFO]: Sleeping_and fell from a high place
+[21:50:08] [Server thread/INFO]: [Irasoma: Teleported Sleeping_and to Irasoma]
+[21:50:13] [Server thread/INFO]: Sleeping_and fell from a high place
+[21:50:22] [Server thread/INFO]: [Irasoma: Teleported Sleeping_and to Irasoma]
+[21:50:35] [Server thread/INFO]: Sleeping_and fell from a high place
+[21:50:38] [Server thread/INFO]: [Irasoma: Teleported Sleeping_and to Irasoma]
+[21:50:44] [Server thread/INFO]: Sleeping_and fell from a high place
+[21:50:51] [Server thread/INFO]: [Irasoma: Teleported Sleeping_and to Irasoma]
+[21:50:57] [Server thread/INFO]: Sleeping_and fell from a high place
+[21:51:01] [Server thread/INFO]: [Irasoma: Teleported Sleeping_and to Irasoma]
+[21:51:01] [Server thread/WARN]: Sleeping_and moved too quickly! 766.1109677275535,34.0,1014.4074881392748
+[21:51:21] [Server thread/INFO]: Sleeping_and was doomed to fall by Irasoma
+[21:51:24] [Server thread/INFO]: [Irasoma: Teleported Sleeping_and to Irasoma]
+[21:51:29] [Server thread/INFO]: Sleeping_and fell from a high place
+[21:51:30] [Server thread/INFO]: [Irasoma: Teleported Sleeping_and to Irasoma]
+[21:51:38] [Server thread/INFO]: Sleeping_and fell from a high place
+[21:51:41] [Server thread/INFO]: [Irasoma: Teleported Sleeping_and to Irasoma]
+[21:51:45] [Server thread/INFO]: Sleeping_and fell from a high place
+[21:51:48] [Server thread/INFO]: [Irasoma: Teleported Sleeping_and to Irasoma]
+[21:51:53] [Server thread/INFO]: Sleeping_and fell from a high place
+[21:51:55] [Server thread/INFO]: [Irasoma: Teleported Sleeping_and to Irasoma]
+[21:52:00] [Server thread/INFO]: Sleeping_and fell from a high place
+[21:52:02] [Server thread/INFO]: [Irasoma: Teleported Sleeping_and to Irasoma]
+[21:52:07] [Server thread/INFO]: Sleeping_and fell from a high place
+[21:52:10] [Server thread/INFO]: [Irasoma: Teleported Sleeping_and to Irasoma]
+[21:52:13] [Server thread/WARN]: Horse (vehicle of ZaosKeysalor) moved wrongly! 0.44352044388620016
+[21:52:15] [Server thread/INFO]: Sleeping_and fell from a high place
+[21:52:17] [Server thread/WARN]: Horse (vehicle of ZaosKeysalor) moved wrongly! 0.39721079286050553
+[21:52:17] [Server thread/WARN]: Horse (vehicle of ZaosKeysalor) moved wrongly! 0.9135632368295319
+[21:52:18] [Server thread/INFO]: [Irasoma: Teleported Sleeping_and to Irasoma]
+[21:52:21] [Server thread/INFO]: Sleeping_and fell from a high place
+[21:52:26] [Server thread/INFO]: [Irasoma: Teleported Sleeping_and to Irasoma]
+[21:52:53] [Server thread/INFO]: Sleeping_and fell from a high place
+[21:52:59] [Server thread/INFO]: [Irasoma: Teleported Sleeping_and to Irasoma]
+[21:53:03] [Server thread/INFO]: Sleeping_and fell from a high place
+[21:53:10] [Server thread/INFO]: [Irasoma: Teleported Sleeping_and to Irasoma]
+[21:53:34] [Server thread/INFO]: [Irasoma: Teleported Sleeping_and to Irasoma]
+[21:53:34] [Server thread/WARN]: Sleeping_and moved too quickly! -2.702351786420877,53.3125,23.788640261295086
+[21:54:27] [Server thread/INFO]: [Irasoma: Teleported Irasoma to 3424.500000, -2.000000, -1243.500000]
+[21:54:27] [Server thread/WARN]: Irasoma moved too quickly! -906.9840481066949,-102.0,129.47212186482034
+[21:54:27] [Server thread/WARN]: Irasoma moved too quickly! -906.9840481066949,-102.0,129.47212186482034
+[21:54:27] [Server thread/WARN]: Irasoma moved too quickly! -906.9840481066949,-102.0,129.47212186482034
+[21:54:27] [Server thread/WARN]: Irasoma moved too quickly! -906.9840481066949,-102.0,129.47212186482034
+[21:55:48] [Server thread/WARN]: Horse (vehicle of ZaosKeysalor) moved wrongly! 0.2937229018932612
+[21:55:48] [Server thread/WARN]: Horse (vehicle of ZaosKeysalor) moved wrongly! 0.68526364197578
+[21:55:52] [Server thread/WARN]: Horse (vehicle of ZaosKeysalor) moved wrongly! 0.2632407701012198
+[21:55:52] [Server thread/WARN]: Horse (vehicle of ZaosKeysalor) moved wrongly! 0.36269305901032567
+[21:55:53] [Server thread/WARN]: Horse (vehicle of ZaosKeysalor) moved wrongly! 0.32689376162602457
+[21:57:55] [Server thread/INFO]: Sleeping_and fell from a high place
+[21:58:59] [Server thread/INFO]: Sleeping_and fell from a high place
+[21:59:00] [Server thread/WARN]: Sleeping_and moved too quickly! -12.72881813538379,18.0,-58.831625591295506
+[21:59:10] [Server thread/INFO]: [Irasoma: Teleported Sleeping_and to Irasoma]
+[22:01:51] [User Authenticator #60/INFO]: UUID of player LeeroyPerkins is 2bdc2115-56e5-455a-ae7a-ec0c69f7e3cb
+[22:01:51] [Server thread/INFO]: LeeroyPerkins[/186.78.102.40:61922] logged in with entity id 379322 at (4183.262615051493, 96.0, 884.3020702402089)
+[22:01:51] [Server thread/INFO]: LeeroyPerkins joined the game
+[22:02:11] [User Authenticator #61/INFO]: UUID of player MissMinuArt is dca46a5d-5d60-487e-9bf7-e9d7eb1239dc
+[22:02:11] [Server thread/INFO]: MissMinuArt[/152.172.247.197:64885] logged in with entity id 379751 at (3167.422905190923, -23.0, -1071.157051096118)
+[22:02:11] [Server thread/INFO]: MissMinuArt joined the game
+[22:03:57] [Server thread/INFO]: [Irasoma: Teleported MissMinuArt to Irasoma]
+[22:04:26] [Server thread/INFO]: Sleeping_and lost connection: Disconnected
+[22:04:26] [Server thread/INFO]: Sleeping_and left the game
+[22:06:23] [Server thread/INFO]: LeeroyPerkins lost connection: Disconnected
+[22:06:23] [Server thread/INFO]: LeeroyPerkins left the game
+[22:07:56] [Server thread/WARN]: ZaosKeysalor moved wrongly!
+[22:07:56] [Server thread/WARN]: ZaosKeysalor moved wrongly!
+[22:08:18] [User Authenticator #62/INFO]: UUID of player Sleeping_and is 5d9be168-fd25-4c47-b6c0-84c85f10f386
+[22:08:18] [Server thread/INFO]: Sleeping_and[/179.56.58.70:51835] logged in with entity id 383016 at (3393.569305289003, 87.0, -1267.4296658137748)
+[22:08:18] [Server thread/INFO]: Sleeping_and joined the game
+[22:08:32] [Server thread/INFO]: MissMinuArt fell from a high place
+[22:08:36] [User Authenticator #63/INFO]: UUID of player LeeroyPerkins is 2bdc2115-56e5-455a-ae7a-ec0c69f7e3cb
+[22:08:36] [Server thread/INFO]: LeeroyPerkins[/186.78.102.40:61994] logged in with entity id 383124 at (3506.921562622478, 101.0, 918.5970356109573)
+[22:08:36] [Server thread/INFO]: LeeroyPerkins joined the game
+[22:08:46] [Server thread/INFO]: [Irasoma: Teleported MissMinuArt to Irasoma]
+[22:09:15] [Server thread/INFO]: Irasoma has made the advancement [Voluntary Exile]
+[22:13:30] [Server thread/INFO]: MissMinuArt has made the advancement [A Throwaway Joke]
+[22:14:07] [Server thread/INFO]: [Irasoma: Teleported Sleeping_and to Irasoma]
+[22:14:27] [Server thread/INFO]: MissMinuArt was slain by Sleeping_and
+[22:15:51] [Server thread/INFO]: Sleeping_and was slain by Irasoma using [Ocean Drive]
+[22:16:38] [Server thread/INFO]: [Irasoma: Teleported Sleeping_and to Irasoma]
+[22:16:38] [Server thread/WARN]: Sleeping_and moved too quickly! 82.48147805771168,60.0855843235298,-45.71111928962705
+[22:16:41] [Server thread/INFO]: Sleeping_and was doomed to fall
+[22:16:47] [Server thread/INFO]: [Irasoma: Teleported Sleeping_and to Irasoma]
+[22:17:13] [Server thread/INFO]: Sleeping_and was slain by Irasoma using [Ocean Drive]
+[22:17:22] [Server thread/INFO]: <ZaosKeysalor> t
+[22:17:45] [Server thread/INFO]: [Irasoma: Teleported Irasoma to ZaosKeysalor]
+[22:17:45] [Server thread/WARN]: Irasoma moved too quickly! 104.30534964240496,61.27500041425191,-40.02790683333819
+[22:17:45] [Server thread/WARN]: Irasoma moved too quickly! 104.30534964240496,61.27500041425191,-40.02790683333819
+[22:18:58] [Server thread/INFO]: [Irasoma: Teleported Sleeping_and to Irasoma]
+[22:19:10] [Server thread/INFO]: [Irasoma: Teleported Sleeping_and to Irasoma]
+[22:19:13] [Server thread/INFO]: Sleeping_and fell from a high place
+[22:19:31] [Server thread/INFO]: [Irasoma: Teleported Sleeping_and to Irasoma]
+[22:19:36] [Server thread/INFO]: Sleeping_and fell from a high place
+[22:22:03] [Server thread/INFO]: Locating element minecraft:mangrove_swamp took 2639 ms
+[22:22:03] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2619ms or 52 ticks behind
+[22:22:03] [Server thread/WARN]: Sleeping_and moved too quickly! -6.00609877811803,-3.698465276337217,-7.318270543733661
+[22:22:33] [Server thread/INFO]: [Irasoma: Teleported Sleeping_and to 2234.500000, 63.000000, 1342.500000]
+[22:22:57] [Server thread/INFO]: MissMinuArt has made the advancement [Not Today, Thank You]
+[22:23:21] [Server thread/INFO]: [Irasoma: Gave 1 [Iron Shovel] to Sleeping_and]
+[22:28:57] [Server thread/INFO]: Sleeping_and tried to swim in lava
+[22:32:12] [Server thread/WARN]: Horse (vehicle of MissMinuArt) moved wrongly! 0.542623344835647
+[22:32:12] [Server thread/WARN]: Horse (vehicle of MissMinuArt) moved wrongly! 1.1128798783270213
+[22:33:13] [Server thread/INFO]: [Irasoma: Successfully filled 16092 block(s)]
+[22:33:36] [Server thread/WARN]: Horse (vehicle of MissMinuArt) moved wrongly! 0.40177549260670276
+[22:33:37] [Server thread/WARN]: Horse (vehicle of MissMinuArt) moved wrongly! 0.4018330004737436
+[22:35:15] [Server thread/INFO]: [Irasoma: Successfully filled 22680 block(s)]
+[22:35:24] [Server thread/INFO]: LeeroyPerkins was slain by Sleeping_and
+[22:35:58] [Server thread/INFO]: [Irasoma: Teleported LeeroyPerkins to ZaosKeysalor]
+[22:36:50] [Server thread/INFO]: [Irasoma: Successfully filled 22680 block(s)]
+[22:37:49] [Server thread/INFO]: [Irasoma: Successfully filled 14175 block(s)]
+[22:37:50] [Server thread/INFO]: Sleeping_and was shot by Skeleton
+[22:48:44] [Server thread/INFO]: Sleeping_and was impaled by Drowned
+[22:49:46] [Server thread/INFO]: ZaosKeysalor hit the ground too hard
+[22:49:46] [Server thread/INFO]: Irasoma lost connection: Disconnected
+[22:49:46] [Server thread/INFO]: Irasoma left the game
+[22:49:47] [Server thread/WARN]: ZaosKeysalor moved too quickly! -4.366742939588221,-1.0,9.89595663568798
+[22:49:56] [Server thread/INFO]: Sleeping_and lost connection: Disconnected
+[22:49:56] [Server thread/INFO]: Sleeping_and left the game
+[22:51:27] [Server thread/INFO]: ZaosKeysalor lost connection: Disconnected
+[22:51:27] [Server thread/INFO]: ZaosKeysalor left the game
+[22:55:01] [Server thread/INFO]: MissMinuArt lost connection: Disconnected
+[22:55:01] [Server thread/INFO]: MissMinuArt left the game
+[22:55:40] [Server thread/INFO]: LeeroyPerkins lost connection: Disconnected
+[22:55:40] [Server thread/INFO]: LeeroyPerkins left the game
