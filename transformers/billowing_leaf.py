@@ -83,6 +83,10 @@ def transform(logs_path, df_servers, *args, **kwargs):
                 elif current_egg in eggs_ark:
                     df_logs = pd.DataFrame()
 
+            # Return an empty dataframe if there are no logs to be processed
+            else:
+                df_logs = pd.DataFrame()
+
         # Return an empty dataframe if the egg is not supported
         else:
             df_logs = pd.DataFrame()

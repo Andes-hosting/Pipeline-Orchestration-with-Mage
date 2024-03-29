@@ -1,8 +1,8 @@
-from uptime_kuma_api import UptimeKumaApi, MonitorType
 from mage_ai.data_preparation.shared.secrets import get_secret_value
+from uptime_kuma_api import UptimeKumaApi, MonitorType
 
-@transformer
-def transform(result_servers, *args, **kwargs):
+@data_exporter
+def export_data(nodes, servers, *args, **kwargs):
 
     kuma_url = get_secret_value('kuma_url')
     kuma_user = get_secret_value('kuma_user')
@@ -12,12 +12,60 @@ def transform(result_servers, *args, **kwargs):
 
         api.login(kuma_user, kuma_pass)
 
+        #### Creating Monitors for each Node ####
+
+        existing_monitors = api.get_monitors()
+        monitor_name = 'Nodes'
+
+        # Check if the monitor_name already exists
+        if any(monitor_name == monitor.get('name') for monitor in existing_monitors):
+            print(f"The monitor group '{monitor_name}' already exists.")
+        else:
+            # Create the monitor group if it doesn't exist
+            api.add_monitor(
+                type=MonitorType.GROUP,
+                name=monitor_name,
+            )
+
+        # Looking for the 'Nodes' group id
+        monitor_group = 'Nodes'
+        existing_monitors = api.get_monitors()
+
+        # Find the monitor with the specified name and type
+        target_monitor = next(
+            (monitor for monitor in existing_monitors if monitor.get('name') == monitor_group and monitor.get('type') == MonitorType.GROUP.value),
+            None
+        )
+
+        # Transform the id from int to str
+        monitor_id = target_monitor.get('id')
+        monitor_id = str(monitor_id)
+
+        # Transform DataFrame to a list of tuples
+        nodes = [tuple(x) for x in nodes.to_records(index=False)]
+
+        # Modify the nodes dictionary creation
+        nodes_dict = {f'{node_id} | {node_name}': f'http://{node_fqdn}' for node_id, node_name, node_fqdn in nodes}
+
+        for node_name, node_url in nodes_dict.items():
+            monitor_exists = any(monitor['name'] == node_name for monitor in existing_monitors)
+            if not monitor_exists:
+                api.add_monitor(
+                    type=MonitorType.HTTP,
+                    name=node_name,
+                    url=node_url,
+                    accepted_statuscodes=['401'],
+                    parent=monitor_id
+                )
+
+        #### Creating Monitors for each Server ####
+
         # Create a nested dictionary
         nested_dict = {}
         # Transform DataFrame to a list of tuples
-        result_servers = [tuple(x) for x in result_servers.to_records(index=False)]
+        servers = [tuple(x) for x in servers.to_records(index=False)]
 
-        for server_info in result_servers:
+        for server_info in servers:
             server_name, server_identifier, server_egg, server_node, server_port = server_info
 
             # Create a dictionary for each server
@@ -101,4 +149,3 @@ def transform(result_servers, *args, **kwargs):
                     game=game_name,
                     parent= parent_id
                     )
-    return None

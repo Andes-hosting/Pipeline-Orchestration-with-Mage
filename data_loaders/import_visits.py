@@ -1,4 +1,5 @@
 from mage_ai.data_preparation.shared.secrets import get_secret_value
+from datetime import datetime, timedelta
 from shlink import Shlink
 import pandas as pd
 
@@ -18,8 +19,12 @@ def load_data(data, *args, **kwargs):
         short_url_id = row['id']
         shortCode = row['shortcode']
         latest_date = row['latest_date']
+        
+        # Get today's date
+        today = datetime.now().date()
+        yesterday = today - timedelta(days=1)
 
-        visits_data = shlink.list_visit_data(short_code = shortCode, startDate = latest_date, excludeBots = True)
+        visits_data = shlink.list_visit_data(short_code = shortCode, startDate = latest_date, endDate = yesterday, excludeBots = True)
 
         if 'visits' in visits_data and 'data' in visits_data['visits']:
             visits_data_list = visits_data['visits']['data']

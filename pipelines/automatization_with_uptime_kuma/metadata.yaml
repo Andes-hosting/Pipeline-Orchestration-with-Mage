@@ -10,34 +10,18 @@ blocks:
     limit: 1000
     use_raw_sql: true
   downstream_blocks:
-  - create_monitors
+  - add_monitors_to_kuma
   executor_config: null
   executor_type: local_python
   has_callback: false
   language: sql
-  name: node_names
+  name: load_pterodactyl_nodes
   retry_config: null
   status: executed
   timeout: null
   type: data_loader
   upstream_blocks: []
-  uuid: node_names
-- all_upstream_blocks_executed: true
-  color: null
-  configuration: {}
-  downstream_blocks: []
-  executor_config: null
-  executor_type: local_python
-  has_callback: false
-  language: python
-  name: create_monitors
-  retry_config: null
-  status: executed
-  timeout: null
-  type: transformer
-  upstream_blocks:
-  - node_names
-  uuid: create_monitors
+  uuid: load_pterodactyl_nodes
 - all_upstream_blocks_executed: true
   color: null
   configuration:
@@ -49,37 +33,35 @@ blocks:
     limit: 1000
     use_raw_sql: true
   downstream_blocks:
-  - create_servers
+  - add_monitors_to_kuma
   executor_config: null
   executor_type: local_python
   has_callback: false
   language: sql
-  name: server_names
+  name: load_pterodactyl_servers
   retry_config: null
   status: executed
   timeout: null
   type: data_loader
   upstream_blocks: []
-  uuid: server_names
+  uuid: load_pterodactyl_servers
 - all_upstream_blocks_executed: true
   color: null
-  configuration:
-    data_provider: postgres
-    data_provider_profile: DataWarehouse
-    export_write_policy: append
+  configuration: {}
   downstream_blocks: []
   executor_config: null
   executor_type: local_python
   has_callback: false
   language: python
-  name: create_servers
+  name: add_monitors_to_kuma
   retry_config: null
   status: executed
   timeout: null
-  type: transformer
+  type: data_exporter
   upstream_blocks:
-  - server_names
-  uuid: create_servers
+  - load_pterodactyl_nodes
+  - load_pterodactyl_servers
+  uuid: add_monitors_to_kuma
 cache_block_output_in_memory: false
 callbacks: []
 concurrency_config: {}

@@ -2,7 +2,7 @@ WITH CTE_last_log_date
 AS (
     SELECT
         server_id,
-        MAX(date) AS last_date
+        DATE(MAX(timestamp)) AS last_date
     FROM pterodactyl.activity
     GROUP BY server_id
 )
@@ -10,7 +10,7 @@ SELECT
     s.id,
     s.identifier,
     e.name AS egg,
-    lld.last_date
+    last_date
 FROM pterodactyl.servers AS s
 INNER JOIN pterodactyl.eggs AS e
     ON e.id = s.egg_id

@@ -58,10 +58,25 @@ notification_config:
   message_templates:
     failure:
       title: Failed to execute pipeline {pipeline_uuid} at {execution_time}
-      details: >
+      details: |
         Failed to execute pipeline {pipeline_run_url}.
-        Pipeline uuid: {pipeline_uuid}. Trigger name: {pipeline_schedule_name}.
-        Please check the error as soon as possible to resolve this critical issue."
+
+        Pipeline uuid: {pipeline_uuid}.
+        Trigger name: {pipeline_schedule_name}.
+
+        Please check the error as soon as possible to resolve this critical issue.
+  discord_config:
+    webhook_url: ...
+  message_templates: "{{ mage_secret_var('discord_webhook') }}"
+    failure:
+      title: 'Failed to execute pipeline {pipeline_uuid} at {execution_time}'
+      details: |
+        Failed to execute pipeline {pipeline_run_url}.
+
+        Pipeline uuid: {pipeline_uuid}.
+        Trigger name: {pipeline_schedule_name}.
+
+        Please check the error as soon as possible to resolve this critical issue.
   slack_config:
     webhook_url: "{{ env_var('MAGE_SLACK_WEBHOOK_URL') }}"
   teams_config:

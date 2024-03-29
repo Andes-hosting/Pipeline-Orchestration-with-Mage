@@ -1,5 +1,5 @@
 from mage_ai.data_preparation.shared.secrets import get_secret_value
-from Andes.utils.ptero_logs import mkdir, sort_list_logs, extract_compressed_file
+from Andes.utils.ptero_logs import mkdir, sort_list_logs, extract_compressed_file, last_index
 from Andes.utils.ptero_logs import all_eggs, folder_logs, log_pattern
 from pydactyl import PterodactylClient
 import pandas as pd
@@ -89,4 +89,5 @@ def load_data(data, *args, **kwargs):
 
                     # Delete the compressed file
                     os.remove(compressed_file_path)
+
     return logs_path

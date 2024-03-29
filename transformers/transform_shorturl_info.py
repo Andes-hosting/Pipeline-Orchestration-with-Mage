@@ -16,10 +16,13 @@ def transform(data_list, *args, **kwargs):
     # Drop the original 'visitsSummary' column
     urls_df = urls_df.drop(columns='meta')
 
-    # convert string to timestamp
+    # Convert string to timestamp
     urls_df['dateCreated'] = pd.to_datetime(urls_df['dateCreated'])
     urls_df['validSince'] = pd.to_datetime(urls_df['validSince'])
     urls_df['validUntil'] = pd.to_datetime(urls_df['validUntil'])
+
+    # Change to int type
+    urls_df['maxVisits'] = urls_df['maxVisits'].astype('Int32')
 
     # Assuming urls_df is your DataFrame
     urls_df.columns = urls_df.columns.str.lower()
