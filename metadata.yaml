@@ -47,6 +47,7 @@ notification_config:
   alert_on:
   - trigger_failure
   - trigger_passed_sla
+
   email_config:
     smtp_host: smtp.gmail.com
     smtp_mail_from: contacto@andes-hosting.com
@@ -65,9 +66,14 @@ notification_config:
         Trigger name: {pipeline_schedule_name}.
 
         Please check the error as soon as possible to resolve this critical issue.
+
+notification_config:
+  alert_on:
+  - trigger_failure
+  - trigger_passed_sla
   discord_config:
-    webhook_url: ...
-  message_templates: "{{ mage_secret_var('discord_webhook') }}"
+    webhook_url: "{{ mage_secret_var('discord_webhook') }}"
+  message_templates: 
     failure:
       title: 'Failed to execute pipeline {pipeline_uuid} at {execution_time}'
       details: |
@@ -77,6 +83,8 @@ notification_config:
         Trigger name: {pipeline_schedule_name}.
 
         Please check the error as soon as possible to resolve this critical issue.
+
+
   slack_config:
     webhook_url: "{{ env_var('MAGE_SLACK_WEBHOOK_URL') }}"
   teams_config:
