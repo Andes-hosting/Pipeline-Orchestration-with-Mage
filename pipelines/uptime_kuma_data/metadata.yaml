@@ -66,7 +66,7 @@ executor_config: {}
 executor_count: 1
 executor_type: null
 extensions: {}
-name: indigo labyrinth
+name: uptime_kuma_data
 notification_config: {}
 remote_variables_dir: null
 retry_config: {}
@@ -76,6 +76,6 @@ settings:
 spark_config: {}
 tags: []
 type: python
-uuid: indigo_labyrinth
+uuid: uptime_kuma_data
 variables_dir: /home/src/mage_data/Andes
 widgets: []

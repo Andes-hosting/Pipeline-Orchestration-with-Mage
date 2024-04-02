@@ -30,11 +30,14 @@ def transform(visits_info_df, *args, **kwargs):
     # Apply the function to create a new 'Device' column
     visits_info_df['Device'] = visits_info_df['Operating_System'].apply(classify_device)
 
-    # Assuming urls_df is your DataFrame
-    visits_info_df.columns = visits_info_df.columns.str.lower()
+    # Get only the important part from a referer link
+    visits_info_df['referer'] = visits_info_df['referer'].str.replace('^https://([^/]+).*$', r'\1')
 
     # Change date column from string to timestamp
     visits_info_df['date'] = pd.to_datetime(visits_info_df['date'])
+
+    # Change columns to lowercase
+    visits_info_df.columns = visits_info_df.columns.str.lower()
 
     # Display the modified DataFrame
     return visits_info_df

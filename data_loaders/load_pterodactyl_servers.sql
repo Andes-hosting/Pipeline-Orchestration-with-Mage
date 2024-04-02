@@ -1,6 +1,6 @@
 SELECT
 	servers.name AS "servers_names",
-	servers.identifier AS "servers_identifier",
+	servers.id AS "servers_id",
 	eggs.name AS "eggs_names",
     nodes.name AS "nodes_names",
 	allocations.port AS "port"

@@ -66,11 +66,11 @@ def export_data(nodes, servers, *args, **kwargs):
         servers = [tuple(x) for x in servers.to_records(index=False)]
 
         for server_info in servers:
-            server_name, server_identifier, server_egg, server_node, server_port = server_info
+            server_name, server_id, server_egg, server_node, server_port = server_info
 
             # Create a dictionary for each server
             server_dict = {
-                'identifier': server_identifier,
+                'id': server_id,
                 'egg': server_egg,
                 'node': server_node,
                 'port': server_port
@@ -81,7 +81,7 @@ def export_data(nodes, servers, *args, **kwargs):
 
         # Determine the game and add a monitor for each server in filtered_servers
         for server_name, server_info in nested_dict.items():
-            server_identifier = server_info['identifier']
+            server_id = str(server_info['id'])
             server_egg = server_info['egg']
             server_node = server_info['node']
             server_port = server_info['port']
@@ -137,13 +137,13 @@ def export_data(nodes, servers, *args, **kwargs):
 
             # Check if the monitor already exists
             existing_monitors = api.get_monitors()
-            monitor_exists = any(monitor['name'] == server_identifier + ' | ' + server_name for monitor in existing_monitors)
+            monitor_exists = any(monitor['name'] == server_id + ' | ' + server_name for monitor in existing_monitors)
 
             # Add the monitor only if it doesn't exist
             if not monitor_exists:
                 api.add_monitor(
                     type=MonitorType.GAMEDIG,
-                    name=server_identifier + ' | ' + server_name,
+                    name=server_id + ' | ' + server_name,
                     hostname=host_minecraft,
                     port=int(port_minecraft),
                     game=game_name,

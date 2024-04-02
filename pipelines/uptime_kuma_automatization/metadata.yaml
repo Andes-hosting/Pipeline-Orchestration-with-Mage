@@ -73,7 +73,7 @@ executor_config: {}
 executor_count: 1
 executor_type: local_python
 extensions: {}
-name: automatization_with_uptime_kuma
+name: uptime_kuma_automatization
 notification_config: {}
 remote_variables_dir: null
 retry_config:
@@ -85,6 +85,6 @@ settings:
 spark_config: {}
 tags: []
 type: python
-uuid: automatization_with_uptime_kuma
+uuid: uptime_kuma_automatization
 variables_dir: /home/src/mage_data/Andes
 widgets: []
