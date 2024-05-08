@@ -101,15 +101,30 @@ def export_data(nodes, servers, *args, **kwargs):
             node_lowercase = server_node.split()[0].lower()
 
             # Determine the game based on the server egg
+            # https://github.com/gamedig/node-gamedig/blob/master/GAMES_LIST.md
+            # The link above is to know the game name in kuma
             if 'Bedrock' in server_egg:
                 game_name = 'minecraftbe'
+            elif 'Ark: Survival Evolved' in server_egg:
+                game_name = 'arkse'
+            elif 'ARK: Survival Ascended' in server_egg:
+                game_name = 'asa'
+            elif 'Rust' in server_egg or 'Rust Autowipe' in server_egg or 'Rust Staging' in server_egg:
+                game_name = 'rust'
+            elif 'Palworld' in server_egg:
+                game_name = 'palworld'
+            elif 'FiveM' in server_egg:
+                game_name = 'fivem'
             else:
                 game_name = 'minecraft'
 
-            # Create the host by concatenating the first word with '.stiv.tech'
-            host_minecraft = f"{node_lowercase}.stiv.tech"
+            # Create the host by concatenating the first word with '.andes-hosting.com'
+            host_minecraft = f"{node_lowercase}.andes-hosting.com"
 
-            port_minecraft = server_port
+            if 'Ark' in server_egg or 'Rust' in server_egg:
+                game_port = int(server_port) + 1
+            else: 
+                game_port = int(server_port)
 
             # Get the list of monitors
             monitors = api.get_monitors()
@@ -145,7 +160,7 @@ def export_data(nodes, servers, *args, **kwargs):
                     type=MonitorType.GAMEDIG,
                     name=server_id + ' | ' + server_name,
                     hostname=host_minecraft,
-                    port=int(port_minecraft),
+                    port=game_port,
                     game=game_name,
                     parent= parent_id
                     )

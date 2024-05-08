@@ -55,7 +55,7 @@ blocks:
   language: python
   name: add_monitors_to_kuma
   retry_config: null
-  status: executed
+  status: updated
   timeout: null
   type: data_exporter
   upstream_blocks:
@@ -77,7 +77,7 @@ name: uptime_kuma_automatization
 notification_config: {}
 remote_variables_dir: null
 retry_config:
-  delay: 10
+  delay: 60
   retries: 3
 run_pipeline_in_one_process: false
 settings:

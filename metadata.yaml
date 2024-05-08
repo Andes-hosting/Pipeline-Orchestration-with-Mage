@@ -43,39 +43,22 @@ spark_config:
   # e.g. kwargs['context']['spark'] = spark_session
   custom_session_var_name: 'spark'
 
-# notification_config:
-#   alert_on:
-#   - trigger_failure
-#   - trigger_passed_sla
-
-#   email_config:
-#     smtp_host: smtp.gmail.com
-#     smtp_mail_from: contacto@andes-hosting.com
-#     smtp_user: "{{ mage_secret_var('email_user') }}"
-#     smtp_password: "{{ mage_secret_var('email_password') }}"
-#     to_emails:
-#       - vmdcortes@gmail.com
-#       - gonzalomhenriquez13@gmail.com
-#   message_templates:
-#     failure:
-#       title: Failed to execute pipeline {pipeline_uuid} at {execution_time}
-#       details: |
-#         Failed to execute pipeline {pipeline_run_url}.
-
-#         Pipeline uuid: {pipeline_uuid}.
-#         Trigger name: {pipeline_schedule_name}.
-
-#         Please check the error as soon as possible to resolve this critical issue.
-
 notification_config:
   alert_on:
   - trigger_failure
   - trigger_passed_sla
-  discord_config:
-    webhook_url: "{{ mage_secret_var('discord_webhook') }}"
-  message_templates: 
+
+  email_config:
+    smtp_host: smtp.gmail.com
+    smtp_mail_from: contacto@andes-hosting.com
+    smtp_user: "{{ mage_secret_var('email_user') }}"
+    smtp_password: "{{ mage_secret_var('email_password') }}"
+    to_emails:
+    - vmdcortes@gmail.com
+    - gonzalomhenriquez13@gmail.com
+  message_templates:
     failure:
-      title: 'Failed to execute pipeline {pipeline_uuid} at {execution_time}'
+      title: Failed to execute pipeline {pipeline_uuid} at {execution_time}
       details: |
         Failed to execute pipeline {pipeline_run_url}.
 
@@ -84,12 +67,13 @@ notification_config:
 
         Please check the error as soon as possible to resolve this critical issue.
 
-
+  discord_config:
+    webhook_url: "{{ mage_secret_var('discord_webhook') }}"
   slack_config:
     webhook_url: "{{ env_var('MAGE_SLACK_WEBHOOK_URL') }}"
   teams_config:
     webhook_url: "{{ env_var('MAGE_TEAMS_WEBHOOK_URL') }}"
-project_uuid: 190767618ba34e60bd69633a621a3a19
+project_uuid: d8a1fad31da9495b89625363e8514bed
 help_improve_mage: true
 features:
   command_center: true

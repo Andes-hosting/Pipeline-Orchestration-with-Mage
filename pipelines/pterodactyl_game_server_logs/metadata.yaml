@@ -10,36 +10,36 @@ blocks:
     limit: 1000
     use_raw_sql: true
   downstream_blocks:
-  - illuminated_star
-  - billowing_leaf
+  - load_server_logs
+  - transformation_logs_into_information
   executor_config: null
   executor_type: local_python
   has_callback: false
   language: sql
-  name: dry ronin
+  name: load_servers_with_last_log_date
   retry_config: null
   status: executed
   timeout: null
   type: data_loader
   upstream_blocks: []
-  uuid: dry_ronin
+  uuid: load_servers_with_last_log_date
 - all_upstream_blocks_executed: true
   color: null
   configuration: {}
   downstream_blocks:
-  - billowing_leaf
+  - transformation_logs_into_information
   executor_config: null
   executor_type: local_python
   has_callback: false
   language: python
-  name: illuminated star
+  name: load_server_logs
   retry_config: null
   status: executed
   timeout: null
   type: data_loader
   upstream_blocks:
-  - dry_ronin
-  uuid: illuminated_star
+  - load_servers_with_last_log_date
+  uuid: load_server_logs
 - all_upstream_blocks_executed: true
   color: null
   configuration: {}
@@ -49,26 +49,28 @@ blocks:
   executor_type: local_python
   has_callback: false
   language: python
-  name: billowing leaf
+  name: transformation_logs_into_information
   retry_config: null
-  status: updated
+  status: executed
   timeout: null
   type: transformer
   upstream_blocks:
-  - illuminated_star
-  - dry_ronin
-  uuid: billowing_leaf
-- all_upstream_blocks_executed: false
+  - load_server_logs
+  - load_servers_with_last_log_date
+  uuid: transformation_logs_into_information
+- all_upstream_blocks_executed: true
   color: null
   configuration:
     data_provider: postgres
     data_provider_profile: DataWarehouse
     dbt: {}
-    disable_query_preprocessing: true
+    disable_query_preprocessing: false
     export_write_policy: append
     limit: 1000
     upstream_block_configuration:
       billowing_leaf:
+        table_name: pterodactyl.activity_stg
+      transformation_logs_into_information:
         table_name: pterodactyl.activity_stg
     use_raw_sql: true
   downstream_blocks: []
@@ -78,17 +80,17 @@ blocks:
   language: sql
   name: knightly night
   retry_config: null
-  status: failed
+  status: executed
   timeout: null
   type: data_exporter
   upstream_blocks:
-  - billowing_leaf
+  - transformation_logs_into_information
   uuid: knightly_night
 cache_block_output_in_memory: false
 callbacks: []
 concurrency_config: {}
 conditionals:
-- all_upstream_blocks_executed: false
+- all_upstream_blocks_executed: true
   color: null
   configuration: {}
   downstream_blocks: []

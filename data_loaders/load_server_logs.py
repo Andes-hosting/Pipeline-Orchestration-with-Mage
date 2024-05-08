@@ -1,9 +1,10 @@
 from mage_ai.data_preparation.shared.secrets import get_secret_value
-from Andes.utils.ptero_logs import mkdir, sort_list_logs, extract_compressed_file, last_index
+from Andes.utils.ptero_logs import mkdir, sort_list_logs, get_timestamp_log_names, extract_compressed_file, last_index
 from Andes.utils.ptero_logs import all_eggs, folder_logs, log_pattern
 from pydactyl import PterodactylClient
-import pandas as pd
+from datetime import datetime
 import urllib, os, re
+import pandas as pd
 
 @data_loader
 def load_data(data, *args, **kwargs):
@@ -42,11 +43,7 @@ def load_data(data, *args, **kwargs):
             mkdir(folder_server_dir)
 
             # Get the last log date to download only necessary logs
-            if last_log is not None:
-                last_log_date = last_log.strftime('%Y-%m-%d')
-            else:
-                # Set a default value to download all logs in case when last log date is not available
-                last_log_date = '2000-01-01'
+            last_log_date = last_log
 
             # Get a list of the logs inside the server
             try:
@@ -60,20 +57,17 @@ def load_data(data, *args, **kwargs):
             # If log_files_data is not empty, sort the list of logs based on the date naming
             if log_files_data:
                 list_logs = [file['attributes']['name'] for file in log_files_data if re.match(log_pattern[egg], file['attributes']['name'])]
-                sorted_list_logs = sort_list_logs(list_logs)
-                sorted_list_logs_date = [item[:10] for item in sorted_list_logs]
+                sorted_list_logs = sort_list_logs(egg, list_logs)
+                sorted_list_logs_timestamp = get_timestamp_log_names(egg, sorted_list_logs)
             else:
                 print(f"No log files found in server {identifier} with the client API.")
 
             # Select only a list of downloadable_logs which are new; after the last_log_date
-            try:
-                index_last_log = last_index(sorted_list_logs_date, last_log_date)
-            except:
-                index_last_log = -1
-            downloadable_logs = sorted_list_logs[index_last_log + 1:]
+            index_last_log = last_index(sorted_list_logs_timestamp, last_log_date)
+            downloadable_logs = sorted_list_logs[index_last_log:]
 
             # Download all logs in the list downloadable_logs
-            list_download = [api_cli.client.servers.files.download_file(identifier, f'/logs/{log}') for log in downloadable_logs]
+            list_download = [api_cli.client.servers.files.download_file(identifier, f'/{folder_logs[egg]}/{log}') for log in downloadable_logs]
             if list_download:
                 [urllib.request.urlretrieve(list_download[i], os.path.join(folder_server_dir, list_logs[i])) for i in range(len(list_download))]
             print(f'Files downloaded: {len(list_download)}')
